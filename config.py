@@ -3,7 +3,11 @@ from pathlib import Path
 
 # Lokasi folder aplikasi
 APP_DIR = Path(__file__).resolve().parent
-PROJECT_DIR = APP_DIR.parent
+PROJECT_DIR = (
+    APP_DIR.parent
+    if (APP_DIR.parent / "01_data").is_dir()
+    else APP_DIR
+)
 
 # Dataset
 DATA_DIR = PROJECT_DIR / "01_data"

@@ -1,0 +1,604 @@
+expected_faq_id,predicted_faq_id,predicted_category,predicted_source,top_score,expected_rank,hit_at_3,above_similarity_threshold,query_id,question
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.8236309023448658,1,True,True,FAQ001_Q030,Gimana cara mengetahui jadwal kelas?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7206422261642244,1,True,True,FAQ001_Q059,Mohon informasi tentang melihat jadwal semester ini.
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7096187279184012,1,True,True,FAQ001_Q001,Mohon informasi tentang melihat jadwal kuliah.
+FAQ001,FAQ003,Jadwal Kuliah,Portal Akademik,0.8308999224662593,2,True,True,FAQ001_Q034,Apa prosedur untuk mengecek jadwal kuliah?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7437140867431274,1,True,True,FAQ001_Q019,Tolong jelaskan melihat jadwal semester ini.
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.8033315924012994,1,True,True,FAQ001_Q070,Tolong jelaskan cek jadwal mata kuliah.
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.6733348294864482,1,True,True,FAQ001_Q064,Bisa bantu saya tahu jam kuliah?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7143014863288435,1,True,True,FAQ001_Q005,Tolong jelaskan mengetahui jam kuliah.
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.674703452505613,1,True,True,FAQ001_Q028,Bagaimana cara melihat jadwal kuliah dong?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.8565667567572619,1,True,True,FAQ001_Q087,tahu jam kuliah?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7437512848840397,1,True,True,FAQ001_Q006,Bisa bantu saya mengetahui jadwal kelas?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7036584739350651,1,True,True,FAQ001_Q075,Saya ingin tahu jam kuliah.
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.7323840923064271,1,True,True,FAQ001_Q072,Apa prosedur untuk mengetahui jadwal kelas?
+FAQ001,FAQ001,Jadwal Kuliah,Portal Akademik,0.729639426704013,1,True,True,FAQ001_Q080,Bisa bantu saya melihat jadwal semester ini?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8566444069867389,1,True,True,FAQ002_Q008,Di mana saya bisa mencari solusi jadwal kelas tabrakan?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.7600239232332722,1,True,True,FAQ002_Q005,Di mana saya bisa melaporkan jadwal kuliah yang bersamaan?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8912642080507809,1,True,True,FAQ002_Q040,Tolong jelaskan mencari solusi jadwal kelas tabrakan.
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8776044592332142,1,True,True,FAQ002_Q016,Tolong jelaskan ngurus kelas yang waktunya bersamaan.
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8788714675990077,1,True,True,FAQ002_Q058,Tolong jelaskan mengurus kelas yang waktunya bersamaan.
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8675377446708497,1,True,True,FAQ002_Q052,Bisa bantu saya mengurus kelas yang waktunya bersamaan?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8579025025747697,1,True,True,FAQ002_Q074,Saya ingin menyelesaikan tabrakan jadwal mata kuliah.
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.9399092370023718,1,True,True,FAQ002_Q046,Gimana cara melaporkan jadwal kuliah yang bersamaan?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8440795688852806,1,True,True,FAQ002_Q002,Saya ingin ngatasin jadwal kuliah bentrok.
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.925596638681808,1,True,True,FAQ002_Q020,Gimana cara mengatasi jadwal kuliah bentrok?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.8982483692886862,1,True,True,FAQ002_Q045,Cara melaporkan jadwal kuliah yang bersamaan bagaimana?
+FAQ002,FAQ002,Jadwal Kuliah,Bagian Akademik,0.7448820314178548,1,True,True,FAQ002_Q029,Saya ingin mengatasi jadwal kuliah bentrok.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.9474955691679056,1,True,True,FAQ003_Q023,Tolong jelaskan memastikan jadwal perkuliahan masih sama.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.8454716870113224,1,True,True,FAQ003_Q088,Saya ingin mengecek jadwal kuliah terbaru.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.821229693383029,1,True,True,FAQ003_Q063,Di mana saya bisa memastikan jadwal kuliah masih sama?
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.785893446801158,1,True,True,FAQ003_Q046,Di mana saya bisa mengecek jadwal kuliah terbaru?
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.8430621207691759,1,True,True,FAQ003_Q002,Bisa bantu saya memastikan jadwal kuliah masih sama?
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.8714740063517106,1,True,True,FAQ003_Q021,Saya ingin mengetahui perubahan jadwal kelas.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.8884720102087579,1,True,True,FAQ003_Q001,Tolong jelaskan tahu jika dosen mengganti jadwal.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.8214104668254154,1,True,True,FAQ003_Q026,"Mohon info, apakah jadwal kuliah bisa berubah?"
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.7022883839573423,1,True,True,FAQ003_Q060,Mohon informasi tentang cek jadwal kuliah terbaru.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.9513860008137098,1,True,True,FAQ003_Q058,Gimana cara memastikan jadwal perkuliahan masih sama?
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.9430315395604547,1,True,True,FAQ003_Q067,Tolong jelaskan memastikan jadwal kuliah masih sama.
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.7880665455150064,1,True,True,FAQ003_Q076,"Saya mau tahu, apakah jadwal kuliah bisa berubah bagaimana?"
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.8397141182558556,1,True,True,FAQ003_Q085,Bisa bantu saya tahu perubahan jadwal kelas?
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.9033655360383914,1,True,True,FAQ003_Q044,Cara memastikan jadwal kuliah masih sama bagaimana?
+FAQ003,FAQ003,Jadwal Kuliah,Portal Akademik,0.9556996402365336,1,True,True,FAQ003_Q071,Saya ingin mendapat informasi perubahan jam kuliah.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.8559780044323944,1,True,True,FAQ004_Q038,Tolong jelaskan cek nomor ruang kelas.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.9136344822028557,1,True,True,FAQ004_Q054,Bagaimana cara melihat lokasi perkuliahan?
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.8682906727688375,1,True,True,FAQ004_Q006,Saya ingin mengecek nomor ruang kelas.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.8996625857094602,1,True,True,FAQ004_Q087,Di mana saya bisa tahu kelas berlangsung di ruangan mana?
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.9386643683790927,1,True,True,FAQ004_Q066,Gimana cara mengetahui kelas berlangsung di ruangan mana?
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7358795660611201,1,True,True,FAQ004_Q021,Tolong jelaskan melihat lokasi kuliah.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.844253490987577,1,True,True,FAQ004_Q069,Menemukan ruangan mata kuliah?
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7321623476164851,1,True,True,FAQ004_Q017,Saya ingin melihat lokasi perkuliahan.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.8078255368434748,1,True,True,FAQ004_Q040,Saya ingin mengetahui lokasi ruang kuliah.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7371609365603016,1,True,True,FAQ004_Q050,Bagaimana cara tahu ruang kelas dong?
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.9124133480743332,1,True,True,FAQ004_Q025,Tolong jelaskan mengetahui kelas berlangsung di ruangan mana.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7661076988898053,1,True,True,FAQ004_Q044,Mohon informasi tentang mengetahui lokasi ruang kuliah.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7195311565663651,1,True,True,FAQ004_Q043,Saya ingin menemukan ruangan mata kuliah.
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7038167574657798,1,True,True,FAQ004_Q073,Bisa bantu saya menemukan ruangan mata kuliah?
+FAQ004,FAQ004,Ruang Kelas,Portal Akademik,0.7795843147197801,1,True,True,FAQ004_Q057,Bisa bantu saya mengetahui lokasi ruang kuliah?
+FAQ005,FAQ005,KRS,Portal Akademik,0.9452692673651981,1,True,True,FAQ005_Q052,Gimana cara mengisi rencana studi semester?
+FAQ005,FAQ005,KRS,Portal Akademik,0.8301390647650209,1,True,True,FAQ005_Q055,Apa prosedur untuk mengisi rencana studi semester?
+FAQ005,FAQ005,KRS,Portal Akademik,0.9424177708539473,1,True,True,FAQ005_Q046,Gimana cara mengisi Kartu Rencana Studi?
+FAQ005,FAQ005,KRS,Portal Akademik,0.9616712470143047,1,True,True,FAQ005_Q034,Cara memilih mata kuliah semester depan bagaimana?
+FAQ005,FAQ005,KRS,Portal Akademik,0.8582633666529178,1,True,True,FAQ005_Q009,Saya ingin mengisi rencana studi semester.
+FAQ005,FAQ005,KRS,Portal Akademik,0.8162720741211571,1,True,True,FAQ005_Q033,Di mana saya bisa mengisi rencana studi semester?
+FAQ005,FAQ005,KRS,Portal Akademik,0.7528893571831137,1,True,True,FAQ005_Q032,Bisa bantu saya melakukan KRS online?
+FAQ005,FAQ005,KRS,Portal Akademik,0.9344278718295151,1,True,True,FAQ005_Q050,Cara mengisi rencana studi semester bagaimana?
+FAQ005,FAQ005,KRS,Portal Akademik,0.7561506920862725,1,True,True,FAQ005_Q011,Bagaimana cara mengisi KRS ya?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.9530478631526389,1,True,True,FAQ006_Q031,Saya ingin membatalkan mata kuliah yang dipilih.
+FAQ006,FAQ006,KRS,Bagian Akademik,0.8907705501748197,1,True,True,FAQ006_Q022,Mengganti mata kuliah di KRS?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.9361962152651587,1,True,True,FAQ006_Q044,Gimana cara memperbaiki pilihan mata kuliah?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.7317412269645341,1,True,True,FAQ006_Q030,Di mana saya bisa mengganti mata kuliah di KRS?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.9051293673609677,1,True,True,FAQ006_Q005,Gimana cara merevisi KRS?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.8205837327777763,1,True,True,FAQ006_Q007,Apa prosedur untuk merevisi KRS?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.8214453236924539,1,True,True,FAQ006_Q035,"Mohon info, bagaimana cara mengubah KRS yang sudah disimpan?"
+FAQ006,FAQ006,KRS,Bagian Akademik,0.9239510277568164,1,True,True,FAQ006_Q023,Bisa bantu saya menambah mata kuliah setelah KRS?
+FAQ006,FAQ006,KRS,Bagian Akademik,0.8033402076694767,1,True,True,FAQ006_Q032,Apa prosedur untuk memperbaiki pilihan mata kuliah?
+FAQ007,FAQ007,KRS,Layanan TI,0.8598851972595103,1,True,True,FAQ007_Q040,Tolong jelaskan ngatasin sistem KRS down.
+FAQ007,FAQ007,KRS,Layanan TI,0.8195940288364805,1,True,True,FAQ007_Q062,Apa prosedur untuk memperbaiki masalah akses KRS?
+FAQ007,FAQ007,KRS,Layanan TI,0.8571627462761302,1,True,True,FAQ007_Q072,Saya ingin memperbaiki masalah akses KRS.
+FAQ007,FAQ007,KRS,Layanan TI,0.9004454348251272,1,True,True,FAQ007_Q036,Mengatasi sistem KRS down?
+FAQ007,FAQ007,KRS,Layanan TI,0.8552539352033108,1,True,True,FAQ007_Q055,Tolong jelaskan memperbaiki masalah akses KRS.
+FAQ007,FAQ007,KRS,Layanan TI,0.9096578547659433,1,True,True,FAQ007_Q023,Apa yang harus dilakukan jika portal KRS tidak bisa dibuka ya?
+FAQ007,FAQ007,KRS,Layanan TI,0.9294116597804207,1,True,True,FAQ007_Q001,Bagaimana cara ngatasin portal KRS error?
+FAQ007,FAQ007,KRS,Layanan TI,0.953320385629541,1,True,True,FAQ007_Q063,Bagaimana cara membuka halaman KRS yang gagal?
+FAQ007,FAQ007,KRS,Layanan TI,0.9229672876304598,1,True,True,FAQ007_Q005,ngatasin kegagalan saat KRS online?
+FAQ007,FAQ007,KRS,Layanan TI,0.9498919211339236,1,True,True,FAQ007_Q009,Tolong jelaskan membuka halaman KRS yang gagal.
+FAQ007,FAQ007,KRS,Layanan TI,0.8521286692468162,1,True,True,FAQ007_Q075,Saya ingin mengatasi portal KRS error.
+FAQ007,FAQ007,KRS,Layanan TI,0.9454814403788139,1,True,True,FAQ007_Q080,Cara mengatasi portal KRS error bagaimana?
+FAQ007,FAQ007,KRS,Layanan TI,0.9308704113006997,1,True,True,FAQ007_Q046,Bagaimana cara mengatasi portal KRS error?
+FAQ007,FAQ007,KRS,Layanan TI,0.8420875705662723,1,True,True,FAQ007_Q007,Bisa bantu saya ngatasin sistem KRS down?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.7138996122982781,1,True,True,FAQ008_Q065,Bisa bantu saya melihat hasil studi?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.8976823663034909,1,True,True,FAQ008_Q005,Bagaimana cara lihat nilai akademik secara online?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.835846388836124,1,True,True,FAQ008_Q022,Tolong jelaskan mengetahui IP semester.
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.6395988444220355,1,True,True,FAQ008_Q061,Bisa bantu saya cek nilai semester?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.6885544382302448,1,True,True,FAQ008_Q080,Tolong jelaskan cek nilai semester.
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.8542750642914356,1,True,True,FAQ008_Q087,Saya ingin tahu IP semester.
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.9092314877588947,1,True,True,FAQ008_Q042,Bagaimana cara cek nilai mata kuliah?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.8615399410879219,1,True,True,FAQ008_Q038,Saya ingin melihat nilai akademik secara online.
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.8655216763101103,1,True,True,FAQ008_Q075,Cara melihat nilai akademik secara online bagaimana?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.7909780102082175,1,True,True,FAQ008_Q011,Di mana saya bisa tahu IP semester?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.8606208749060128,1,True,True,FAQ008_Q090,Gimana cara cek nilai mata kuliah?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.8842618388157164,1,True,True,FAQ008_Q024,Gimana cara tahu IP semester?
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.6062831919254341,1,True,True,FAQ008_Q048,"Saya mau tahu, bagaimana cara melihat nilai semester bagaimana?"
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.7292097543959326,1,True,True,FAQ008_Q082,Tolong jelaskan melihat hasil studi.
+FAQ008,FAQ008,Nilai Akademik,Portal Akademik,0.9205453943525783,1,True,True,FAQ008_Q003,Gimana cara melihat hasil studi?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8376574726317836,1,True,True,FAQ009_Q050,Bisa bantu saya mengetahui penyebab nilai belum muncul?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.7728596804208112,1,True,True,FAQ009_Q080,Apa prosedur untuk mengecek nilai yang masih kosong?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.9416832360683958,1,True,True,FAQ009_Q009,Bagaimana cara mengecek nilai yang masih kosong?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.9416396688278548,1,True,True,FAQ009_Q086,Gimana cara melaporkan nilai yang belum tampil?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.9043559450864898,1,True,True,FAQ009_Q068,Mengecek nilai yang masih kosong?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8883787778693364,1,True,True,FAQ009_Q044,Cara ngatasin nilai yang belum keluar bagaimana?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.797069742605265,1,True,True,FAQ009_Q010,Tolong jelaskan mengecek nilai yang masih kosong.
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8168129820771645,1,True,True,FAQ009_Q023,"Mohon info, apa yang harus dilakukan jika nilai belum muncul?"
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.940272436495841,1,True,True,FAQ009_Q037,Gimana cara menanyakan nilai yang belum terbit?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8844688413813707,1,True,True,FAQ009_Q075,Apa yang harus dilakukan jika nilai belum muncul dong?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8490118366469579,1,True,True,FAQ009_Q019,Tolong jelaskan mengetahui penyebab nilai belum muncul.
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8701949357364585,1,True,True,FAQ009_Q036,Tolong jelaskan ngatasin nilai yang belum keluar.
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8954340683296009,1,True,True,FAQ009_Q055,Gimana cara mengatasi nilai yang belum keluar?
+FAQ009,FAQ009,Nilai Akademik,Dosen/Bagian Akademik,0.8601094454256987,1,True,True,FAQ009_Q052,Saya ingin mengetahui penyebab nilai belum muncul.
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.8394245880676356,1,True,True,FAQ010_Q033,Mohon informasi tentang memahami indeks prestasi kumulatif.
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.9020986428521625,1,True,True,FAQ010_Q012,Bagaimana cara memahami indeks prestasi kumulatif?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.7668960868676218,1,True,True,FAQ010_Q064,Di mana saya bisa mengetahui cara menghitung IPK?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.9319412125103116,1,True,True,FAQ010_Q061,Mengetahui cara menghitung IPK?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.886247234984945,1,True,True,FAQ010_Q070,Gimana cara memahami indeks prestasi kumulatif?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.8649056435040191,1,True,True,FAQ010_Q049,Apa prosedur untuk memahami perbedaan IP dengan IPK?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.8103804816004062,1,True,True,FAQ010_Q037,Tolong jelaskan mengetahui cara menghitung IPK.
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.931150112214126,1,True,True,FAQ010_Q047,Bagaimana cara tahu cara menghitung IPK?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.8091032860416038,1,True,True,FAQ010_Q074,Apa perbedaan IP dan IPK secara online?
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.8342726651914987,1,True,True,FAQ010_Q023,Tolong jelaskan tahu arti IPK.
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.8652000122542209,1,True,True,FAQ010_Q001,Tolong jelaskan tahu cara menghitung IPK.
+FAQ010,FAQ010,Nilai Akademik,Pedoman Akademik,0.9419013059321908,1,True,True,FAQ010_Q035,Bagaimana cara memahami indeks prestasi semester?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8649995733742921,1,True,True,FAQ011_Q033,Saya ingin izin karena berhalangan hadir.
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.7630363630580459,1,True,True,FAQ011_Q014,Tolong bantu jelaskan: bagaimana cara izin tidak masuk kuliah?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8727711896796011,1,True,True,FAQ011_Q009,Mohon informasi tentang memberi kabar sakit kepada dosen.
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8459650664201139,1,True,True,FAQ011_Q042,Bisa bantu saya izin karena berhalangan hadir?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8916503579283668,1,True,True,FAQ011_Q024,Mengirim pemberitahuan tidak bisa kuliah?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8475531635863737,1,True,True,FAQ011_Q065,Tolong jelaskan mengajukan izin absen kuliah.
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.7298688360781241,1,True,True,FAQ011_Q025,"Saya mau tahu, bagaimana cara izin tidak masuk kuliah bagaimana?"
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8378456028213128,1,True,True,FAQ011_Q012,Apa prosedur untuk izin karena berhalangan hadir?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8633989501748266,1,True,True,FAQ011_Q044,Di mana saya bisa memberi kabar sakit kepada dosen?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.920607062304113,1,True,True,FAQ011_Q059,Bagaimana cara melaporkan ketidakhadiran kelas?
+FAQ011,FAQ011,Kehadiran,Dosen Pengampu,0.8131163792646261,1,True,True,FAQ011_Q007,Bisa bantu saya melaporkan ketidakhadiran kelas?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.9552031037033863,1,True,True,FAQ012_Q046,Gimana cara melaporkan catatan presensi yang salah?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7676278896388548,1,True,True,FAQ012_Q050,Apa prosedur untuk tahu riwayat kehadiran kelas?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7977305173580427,1,True,True,FAQ012_Q017,Apa prosedur untuk mengecek jumlah kehadiran?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.8342274919111238,1,True,True,FAQ012_Q022,Di mana saya bisa mengetahui riwayat kehadiran kelas?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.9136292459075882,1,True,True,FAQ012_Q053,Gimana cara cek jumlah kehadiran?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.6807579303934032,1,True,True,FAQ012_Q020,Saya ingin memeriksa persentase presensi.
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7639825075261754,1,True,True,FAQ012_Q007,Mohon informasi tentang tahu riwayat kehadiran kelas.
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.8319947991046629,1,True,True,FAQ012_Q023,Tolong jelaskan mengecek jumlah kehadiran.
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.6452004791807654,1,True,True,FAQ012_Q089,Mohon informasi tentang memeriksa persentase presensi.
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.6948620838156992,1,True,True,FAQ012_Q013,Bisa bantu saya memeriksa persentase presensi?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7504832931973667,1,True,True,FAQ012_Q003,Bagaimana cara memeriksa presensi kuliah dong?
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7948837915209542,1,True,True,FAQ012_Q004,Mohon informasi tentang cek jumlah kehadiran.
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7077743095143978,1,True,True,FAQ012_Q057,"Mohon info, bagaimana cara cek presensi kuliah?"
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.8817406828990407,1,True,True,FAQ012_Q079,Mohon informasi tentang melaporkan catatan presensi yang salah.
+FAQ012,FAQ012,Kehadiran,Portal Akademik,0.7544572281529037,1,True,True,FAQ012_Q049,Tolong jelaskan cek persentase presensi.
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.806255408997095,1,True,True,FAQ013_Q032,Apa prosedur untuk tahu syarat surat aktif?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.8176823994706637,1,True,True,FAQ013_Q004,Bisa bantu saya tahu syarat surat aktif?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.8312650171696585,1,True,True,FAQ013_Q003,Saya ingin dapat surat mahasiswa aktif.
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.7786418665894306,1,True,True,FAQ013_Q040,Di mana saya bisa dapat surat mahasiswa aktif?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.9246352750455612,1,True,True,FAQ013_Q076,Di mana saya bisa membuat surat yang menyatakan masih kuliah?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.7535197621742633,1,True,True,FAQ013_Q006,Tolong jelaskan mengetahui syarat surat aktif.
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.7138248929317965,1,True,True,FAQ013_Q087,Bagaimana cara mengurus surat aktif kuliah secara online?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.8971741733708218,1,True,True,FAQ013_Q005,Saya ingin membuat surat yang menyatakan masih kuliah.
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.9039834587207518,1,True,True,FAQ013_Q086,Bagaimana cara tahu syarat surat aktif?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.9605542346153758,1,True,True,FAQ013_Q052,Cara membuat surat yang menyatakan masih kuliah bagaimana?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.8801281648493677,1,True,True,FAQ013_Q085,Gimana cara tahu syarat surat aktif?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.8396167715306028,1,True,True,FAQ013_Q008,Mohon informasi tentang meminta surat keterangan aktif.
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.7548500937247365,1,True,True,FAQ013_Q058,Bagaimana cara ngurus surat aktif kuliah ya?
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.8387011993523328,1,True,True,FAQ013_Q012,Mohon informasi tentang mengajukan surat aktif untuk administrasi.
+FAQ013,FAQ013,Administrasi Akademik,Bagian Akademik,0.9201972096731662,1,True,True,FAQ013_Q051,Bagaimana cara meminta surat keterangan aktif?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.7530347288765818,1,True,True,FAQ014_Q014,Apa prosedur untuk mengajukan daftar nilai resmi?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.9384316361708851,1,True,True,FAQ014_Q030,Gimana cara meminta rekap nilai resmi?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.8938277092872122,1,True,True,FAQ014_Q028,Mengurus dokumen transkrip nilai?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.9251009691859405,1,True,True,FAQ014_Q026,Bagaimana cara ngurus dokumen transkrip nilai?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.7198018942301609,1,True,True,FAQ014_Q070,Apa prosedur untuk mengurus dokumen transkrip nilai?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.7400390113472712,1,True,True,FAQ014_Q048,Di mana saya bisa mengajukan daftar nilai resmi?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.7622020917842363,1,True,True,FAQ014_Q039,Bisa bantu saya mengajukan daftar nilai resmi?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.6484364281353456,1,True,True,FAQ014_Q067,Tolong bantu jelaskan: bagaimana cara meminta transkrip nilai?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.8444843734967519,1,True,True,FAQ014_Q072,Cara ngurus dokumen transkrip nilai bagaimana?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.7774915896463872,1,True,True,FAQ014_Q053,Tolong jelaskan dapat transkrip akademik.
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.9129051390408367,1,True,True,FAQ014_Q043,Bagaimana cara dapat transkrip akademik?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.7461404588045925,1,True,True,FAQ014_Q012,Mohon informasi tentang mendapatkan transkrip akademik.
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.9232231189709001,1,True,True,FAQ014_Q086,Gimana cara mengunduh transkrip nilai?
+FAQ014,FAQ014,Administrasi Akademik,Bagian Akademik,0.8487059208700518,1,True,True,FAQ014_Q065,Saya ingin ngurus dokumen transkrip nilai.
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8653602875738388,1,True,True,FAQ015_Q020,Saya ingin tahu syarat legalisir dokumen.
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8194197019916905,1,True,True,FAQ015_Q050,Mohon informasi tentang ngurus pengesahan dokumen kampus.
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8210790367448326,1,True,True,FAQ015_Q061,Di mana saya bisa melegalisasi ijazah?
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8493080368666897,1,True,True,FAQ015_Q041,Tolong jelaskan tahu syarat legalisir dokumen.
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8361315254623642,1,True,True,FAQ015_Q048,Bisa bantu saya tahu syarat legalisir dokumen?
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.7494938588772457,1,True,True,FAQ015_Q044,"Mohon info, bagaimana cara legalisasi dokumen akademik?"
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.9267282203681818,1,True,True,FAQ015_Q060,Cara ngurus pengesahan dokumen kampus bagaimana?
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.910341943805411,1,True,True,FAQ015_Q015,Saya ingin melegalisasi ijazah.
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8381324074420198,1,True,True,FAQ015_Q062,Bisa bantu saya ngurus pengesahan dokumen kampus?
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8659222377204121,1,True,True,FAQ015_Q009,Cara mengurus pengesahan dokumen kampus bagaimana?
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.8750645227630893,1,True,True,FAQ015_Q054,Cara legalisir transkrip nilai bagaimana?
+FAQ015,FAQ015,Administrasi Akademik,Bagian Akademik,0.9138173179251948,1,True,True,FAQ015_Q043,Gimana cara mengetahui syarat legalisir dokumen?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8544312049440999,1,True,True,FAQ016_Q028,Bisa bantu saya mengetahui jumlah uang kuliah?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8799624374087431,1,True,True,FAQ016_Q086,Gimana cara lihat biaya kuliah semester ini?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.7809093196395296,1,True,True,FAQ016_Q043,Apa prosedur untuk tahu jumlah uang kuliah?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.746572907473059,1,True,True,FAQ016_Q020,Tolong jelaskan tahu nominal UKT.
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8784816358682689,1,True,True,FAQ016_Q044,lihat biaya kuliah semester ini?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.9382121057705708,1,True,True,FAQ016_Q032,Bagaimana cara cek rincian pembayaran kuliah?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.9416075907485697,1,True,True,FAQ016_Q041,Tolong jelaskan memeriksa rincian pembayaran kuliah.
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8606311447888121,1,True,True,FAQ016_Q001,Gimana cara cek tagihan UKT?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8502648988841447,1,True,True,FAQ016_Q055,Mohon informasi tentang melihat biaya kuliah semester ini.
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.6847563971062497,1,True,True,FAQ016_Q007,Bagaimana cara lihat tagihan UKT secara online?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8692132729406647,1,True,True,FAQ016_Q072,Tolong jelaskan mengetahui jumlah uang kuliah.
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.9432634219342053,1,True,True,FAQ016_Q009,Gimana cara melihat biaya kuliah semester ini?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8843900892941235,1,True,True,FAQ016_Q076,Bagaimana cara cek tagihan UKT?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.7730041595720671,1,True,True,FAQ016_Q071,Di mana saya bisa mengecek tagihan UKT?
+FAQ016,FAQ016,Keuangan Mahasiswa,Portal Akademik/Unit Keuangan,0.8313953196143806,1,True,True,FAQ016_Q074,Apa prosedur untuk memeriksa rincian pembayaran kuliah?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.8659142122645076,1,True,True,FAQ017_Q009,Di mana saya bisa mengetahui persyaratan keringanan biaya pendidikan?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.9164245853977486,1,True,True,FAQ017_Q082,Gimana cara mengurus banding UKT?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.8339709498764998,1,True,True,FAQ017_Q010,Apa prosedur untuk tahu persyaratan keringanan biaya pendidikan?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.935346488589523,1,True,True,FAQ017_Q051,Gimana cara meminta pengurangan biaya kuliah?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.7808983158022116,1,True,True,FAQ017_Q017,Mohon informasi tentang ngajuin bantuan UKT.
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.9455080307304712,1,True,True,FAQ017_Q055,tahu persyaratan keringanan biaya pendidikan?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.8437828467886461,1,True,True,FAQ017_Q015,Bisa bantu saya menanyakan cicilan uang kuliah?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.8414115483169525,1,True,True,FAQ017_Q037,Bisa bantu saya tahu persyaratan keringanan biaya pendidikan?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.7820138205641504,1,True,True,FAQ017_Q035,Mohon informasi tentang mengurus banding UKT.
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.8488360707333253,1,True,True,FAQ017_Q046,Tolong jelaskan meminta pengurangan biaya kuliah.
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.7391173903981473,1,True,True,FAQ017_Q090,"Saya mau tahu, bagaimana cara mengajukan keringanan UKT bagaimana?"
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.9359434832865742,1,True,True,FAQ017_Q042,Cara meminta pengurangan biaya kuliah bagaimana?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.7663703186977757,1,True,True,FAQ017_Q049,Di mana saya bisa mengurus banding UKT?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.944527608013808,1,True,True,FAQ017_Q083,Gimana cara mengetahui persyaratan keringanan biaya pendidikan?
+FAQ017,FAQ017,Keuangan Mahasiswa,Unit Keuangan/Kemahasiswaan,0.8923011738593978,1,True,True,FAQ017_Q029,Bagaimana cara ngajuin bantuan UKT?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8026948895014888,1,True,True,FAQ018_Q014,Bagaimana cara mencari informasi beasiswa ya?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.780559022290905,1,True,True,FAQ018_Q012,Apa prosedur untuk mencari beasiswa mahasiswa?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.9416839129171652,1,True,True,FAQ018_Q018,Bagaimana cara mendaftar bantuan biaya pendidikan?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8068735765979836,1,True,True,FAQ018_Q039,Saya ingin mengetahui syarat beasiswa.
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8336017303114778,1,True,True,FAQ018_Q026,Saya ingin mengetahui pengumuman beasiswa.
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8212439088152966,1,True,True,FAQ018_Q027,Di mana saya bisa mendaftar bantuan biaya pendidikan?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.687819366616588,1,True,True,FAQ018_Q064,Apa prosedur untuk tahu syarat beasiswa?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8705739622385227,1,True,True,FAQ018_Q071,Saya ingin mendaftar bantuan biaya pendidikan.
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8115038446974028,1,True,True,FAQ018_Q011,Tolong jelaskan tahu pengumuman beasiswa.
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.9206164354547351,1,True,True,FAQ018_Q054,Gimana cara mencari informasi beasiswa kampus?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8743233900838443,1,True,True,FAQ018_Q072,Gimana cara tahu syarat beasiswa?
+FAQ018,FAQ018,Beasiswa,Kemahasiswaan,0.8398965382022616,1,True,True,FAQ018_Q036,Apa prosedur untuk mendaftar bantuan biaya pendidikan?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8000393060702824,1,True,True,FAQ019_Q065,"Saya mau tahu, bagaimana cara tahu dosen pembimbing akademik bagaimana?"
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8793849463673578,1,True,True,FAQ019_Q031,Bisa bantu saya mengetahui siapa pembimbing akademik saya?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8837081154556097,1,True,True,FAQ019_Q035,Cara mengetahui nama dosen PA bagaimana?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.935141977126831,1,True,True,FAQ019_Q072,Gimana cara menemukan kontak dosen pembimbing?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8671531996591784,1,True,True,FAQ019_Q061,Apa prosedur untuk tahu nama dosen PA?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.9344666181342849,1,True,True,FAQ019_Q023,Gimana cara mengetahui siapa pembimbing akademik saya?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8149314846947047,1,True,True,FAQ019_Q053,Saya ingin mencari dosen wali.
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8864394724847959,1,True,True,FAQ019_Q032,Tolong jelaskan tahu nama dosen PA.
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.9359996419376482,1,True,True,FAQ019_Q001,Gimana cara mengetahui nama dosen PA?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.77902758082453,1,True,True,FAQ019_Q045,Mohon informasi tentang hubungi dosen pembimbing akademik.
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8813784857792022,1,True,True,FAQ019_Q042,Cara menghubungi dosen pembimbing akademik bagaimana?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8453541021130339,1,True,True,FAQ019_Q073,Saya ingin mengetahui nama dosen PA.
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8758105755182883,1,True,True,FAQ019_Q062,Bisa bantu saya tahu nama dosen PA?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.9376672539733024,1,True,True,FAQ019_Q015,Mengetahui nama dosen PA?
+FAQ019,FAQ019,Dosen Pembimbing,Portal Akademik/Bagian Akademik,0.8211354563474633,1,True,True,FAQ019_Q087,Bisa bantu saya mengetahui nama dosen PA?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.874285548709349,1,True,True,FAQ020_Q026,Apa prosedur untuk berkonsultasi tentang studi?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.870671484938354,1,True,True,FAQ020_Q008,Mohon informasi tentang menjadwalkan konsultasi akademik.
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.849819305060148,1,True,True,FAQ020_Q009,Di mana saya bisa berkonsultasi tentang studi?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.8571286481345252,1,True,True,FAQ020_Q004,Saya ingin menghubungi dosen wali untuk konsultasi.
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.9284791242051387,1,True,True,FAQ020_Q066,Bagaimana cara berkonsultasi tentang studi?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.850165288161238,1,True,True,FAQ020_Q040,Di mana saya bisa menjadwalkan konsultasi akademik?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.8594144765137018,1,True,True,FAQ020_Q070,Tolong jelaskan hubungi dosen wali untuk konsultasi.
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.92027886788222,1,True,True,FAQ020_Q011,Bagaimana cara membuat janji dengan dosen PA?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.6779778179082705,1,True,True,FAQ020_Q042,"Saya mau tahu, bagaimana cara melakukan konsultasi akademik bagaimana?"
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.8498894517270585,1,True,True,FAQ020_Q050,Saya ingin meminta arahan masalah kuliah.
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.9454462636160902,1,True,True,FAQ020_Q076,Bagaimana cara hubungi dosen wali untuk konsultasi?
+FAQ020,FAQ020,Dosen Pembimbing,Dosen Pembimbing Akademik,0.9098581804356253,1,True,True,FAQ020_Q072,Gimana cara membuat janji dengan dosen PA?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.9208034240098673,1,True,True,FAQ021_Q073,Cara mendaftar sebagai peserta wisuda bagaimana?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.6917266510940027,1,True,True,FAQ021_Q001,Bisa bantu saya cek pengumuman wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.7976990746520821,1,True,True,FAQ021_Q081,Bisa bantu saya mengecek pengumuman wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.8394977199925955,1,True,True,FAQ021_Q063,Gimana cara tahu syarat wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.9116536228862929,1,True,True,FAQ021_Q078,Bagaimana cara cek pengumuman wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.7729976367412308,1,True,True,FAQ021_Q044,Gimana cara mengetahui jadwal wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.8084366329551258,1,True,True,FAQ021_Q026,Mengetahui jadwal wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.7195959780061331,1,True,True,FAQ021_Q018,Di mana saya bisa mengetahui syarat wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.6657031844410024,1,True,True,FAQ021_Q029,Di mana saya bisa cek pengumuman wisuda?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.720856256850538,1,True,True,FAQ021_Q069,Saya ingin cek pengumuman wisuda.
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.8785301742382655,1,True,True,FAQ021_Q022,Cara mengecek pengumuman wisuda bagaimana?
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.7081464466632409,1,True,True,FAQ021_Q074,Tolong jelaskan cek pengumuman wisuda.
+FAQ021,FAQ023,Tugas Akhir,Program Studi,0.7621878504648053,2,True,True,FAQ021_Q066,Mohon informasi tentang menyiapkan dokumen wisuda.
+FAQ021,FAQ021,Wisuda,Panitia Wisuda/Bagian Akademik,0.6694205984825334,1,True,True,FAQ021_Q056,Bisa bantu saya tahu jadwal wisuda?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.7355864120601368,1,True,True,FAQ022_Q036,Tolong jelaskan ngajuin skripsi.
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.8828264687129719,1,True,True,FAQ022_Q049,Bisa bantu saya menanyakan langkah awal penyusunan skripsi?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.9272296274697545,1,True,True,FAQ022_Q046,Bagaimana cara dapat pedoman skripsi?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.7922943401156537,1,True,True,FAQ022_Q016,Memulai tugas akhir?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.8089643844711804,1,True,True,FAQ022_Q079,Bisa bantu saya dapat pedoman skripsi?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.8295204558659062,1,True,True,FAQ022_Q077,Saya ingin dapat pedoman skripsi.
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.923652212655311,1,True,True,FAQ022_Q056,Bagaimana cara mendapatkan pedoman skripsi?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.7591426955371362,1,True,True,FAQ022_Q063,Cara mengajukan skripsi bagaimana?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.8532641436244239,1,True,True,FAQ022_Q066,Cara dapat pedoman skripsi bagaimana?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.8727700246891479,1,True,True,FAQ022_Q011,Bagaimana cara mengajukan skripsi?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.7954464458485468,1,True,True,FAQ022_Q086,Mohon informasi tentang dapat pedoman skripsi.
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.8618596587295118,1,True,True,FAQ022_Q027,Saya ingin mengetahui prosedur tugas akhir.
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.7820731389841438,1,True,True,FAQ022_Q075,Gimana cara ngajuin skripsi?
+FAQ022,FAQ022,Tugas Akhir,Program Studi,0.752730118955137,1,True,True,FAQ022_Q062,"Mohon info, bagaimana cara memulai proses skripsi?"
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.8942803740568342,1,True,True,FAQ023_Q046,Gimana cara tahu prosedur sidang akhir?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.9277358309330489,1,True,True,FAQ023_Q043,Gimana cara tahu syarat sidang tugas akhir?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.7954929328429343,1,True,True,FAQ023_Q057,Apa prosedur untuk mengajukan pendaftaran sidang?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.6882654439603247,1,True,True,FAQ023_Q075,Apa prosedur untuk ngajuin pendaftaran sidang?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.7992723029993337,1,True,True,FAQ023_Q054,Mohon informasi tentang mengetahui syarat sidang tugas akhir.
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.9199814212128115,1,True,True,FAQ023_Q063,Bagaimana cara ngajuin pendaftaran sidang?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.8698289739788392,1,True,True,FAQ023_Q030,Saya ingin mengetahui prosedur sidang akhir.
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.9214203801884107,1,True,True,FAQ023_Q020,Bagaimana cara menyiapkan dokumen sidang?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.8647796957470404,1,True,True,FAQ023_Q033,ngajuin pendaftaran sidang?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.8666623343161386,1,True,True,FAQ023_Q042,Cara mengajukan pendaftaran sidang bagaimana?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.7235870948028497,1,True,True,FAQ023_Q077,Bagaimana cara mendaftar sidang skripsi dong?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.9157205435362359,1,True,True,FAQ023_Q047,Bagaimana cara tahu prosedur sidang akhir?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.898530260660909,1,True,True,FAQ023_Q016,Cara tahu syarat sidang tugas akhir bagaimana?
+FAQ023,FAQ023,Tugas Akhir,Program Studi,0.8538839793477951,1,True,True,FAQ023_Q058,Tolong jelaskan mengetahui prosedur sidang akhir.
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.872535359284278,1,True,True,FAQ024_Q019,cek ketersediaan buku?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.8719352194850809,1,True,True,FAQ024_Q030,Cara mengecek ketersediaan buku bagaimana?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.9169557152306181,1,True,True,FAQ024_Q033,Bagaimana cara cek ketersediaan buku?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.7664069267847677,1,True,True,FAQ024_Q054,Bisa bantu saya meminjam buku kampus?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.753053407707208,1,True,True,FAQ024_Q052,Mohon informasi tentang meminjam buku kampus.
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.7497155012978065,1,True,True,FAQ024_Q014,Tolong jelaskan mengecek ketersediaan buku.
+FAQ024,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.7706276388564068,2,True,True,FAQ024_Q056,Di mana saya bisa mengetahui aturan peminjaman buku?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.7584055913141994,1,True,True,FAQ024_Q009,Saya ingin mengecek ketersediaan buku.
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.7314353933960684,1,True,True,FAQ024_Q075,"Mohon info, bagaimana cara meminjam buku perpustakaan?"
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.8798454642661124,1,True,True,FAQ024_Q007,Bisa bantu saya mencari buku di katalog perpustakaan?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.7305972954808091,1,True,True,FAQ024_Q055,Bisa bantu saya mengecek ketersediaan buku?
+FAQ024,FAQ024,Perpustakaan,Perpustakaan Kampus,0.7690371119967249,1,True,True,FAQ024_Q065,Apa prosedur untuk mengetahui aturan peminjaman buku?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.944487408078741,1,True,True,FAQ025_Q042,Gimana cara mengatasi gagal login portal kampus?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.8537378500290669,1,True,True,FAQ025_Q052,Saya ingin mengatasi akun akademik terkunci.
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.9510218497984011,1,True,True,FAQ025_Q076,Bagaimana cara memperbaiki masalah masuk akun mahasiswa?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.9018181773672165,1,True,True,FAQ025_Q014,Mereset kata sandi portal akademik?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.8224968711188829,1,True,True,FAQ025_Q043,Mohon informasi tentang ngatasin akun akademik terkunci.
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.7606713113595396,1,True,True,FAQ025_Q030,Apa prosedur untuk memperbaiki masalah masuk akun mahasiswa?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.7636613076829981,1,True,True,FAQ025_Q071,Di mana saya bisa memperbaiki masalah masuk akun mahasiswa?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.8324267678522684,1,True,True,FAQ025_Q028,Mohon informasi tentang mereset kata sandi portal akademik.
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.8977744688654964,1,True,True,FAQ025_Q002,Memperbaiki masalah masuk akun mahasiswa?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.868831630804628,1,True,True,FAQ025_Q046,Bisa bantu saya mengatasi gagal login portal kampus?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.8202698144726966,1,True,True,FAQ025_Q051,Di mana saya bisa mereset kata sandi portal akademik?
+FAQ025,FAQ025,Teknologi Informasi,Layanan TI,0.8650931334522045,1,True,True,FAQ025_Q017,Apa prosedur untuk memulihkan akun mahasiswa?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.9105179737078177,1,True,True,FAQ026_Q034,Gimana cara memberi tahu admin tentang error sistem?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.8608388544819437,1,True,True,FAQ026_Q045,Mohon informasi tentang ngatasin halaman kampus tidak terbuka.
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.8522931672682035,1,True,True,FAQ026_Q021,Apa prosedur untuk ngatasin portal akademik tidak merespons?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.9123381441225998,1,True,True,FAQ026_Q039,Bagaimana cara melaporkan website kampus error?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.8441515727689288,1,True,True,FAQ026_Q022,Mohon informasi tentang melaporkan gangguan aplikasi akademik.
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.84661192083927,1,True,True,FAQ026_Q030,Apa prosedur untuk melaporkan gangguan aplikasi akademik?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.8686069964197239,1,True,True,FAQ026_Q046,Bisa bantu saya ngatasin halaman kampus tidak terbuka?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.7915197628564818,1,True,True,FAQ026_Q037,Bagaimana melaporkan gangguan sistem akademik secara online?
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.8913265331799102,1,True,True,FAQ026_Q028,Saya ingin ngatasin halaman kampus tidak terbuka.
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.7488312391377476,1,True,True,FAQ026_Q016,"Saya mau tahu, bagaimana melaporkan gangguan sistem akademik bagaimana?"
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.7844226621714365,1,True,True,FAQ026_Q071,Saya ingin mengatasi portal akademik tidak merespons.
+FAQ026,FAQ026,Teknologi Informasi,Layanan TI,0.9251930770729236,1,True,True,FAQ026_Q056,Bagaimana cara memberi tahu admin tentang error sistem?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.7251168227190347,1,True,True,FAQ027_Q020,"Mohon info, bagaimana cara menghubungi bagian akademik?"
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.6870903298604526,1,True,True,FAQ027_Q045,Apa prosedur untuk hubungi layanan administrasi kampus?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.7241852016534001,1,True,True,FAQ027_Q077,Apa prosedur untuk menghubungi layanan administrasi kampus?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.9378360477206982,1,True,True,FAQ027_Q058,Gimana cara mencari alamat kantor akademik?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.8326044995500492,1,True,True,FAQ027_Q005,Mohon informasi tentang menemukan email admin akademik.
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.842570751591693,1,True,True,FAQ027_Q033,Apa prosedur untuk mencari nomor telepon akademik?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.8692738409707206,1,True,True,FAQ027_Q032,Mohon informasi tentang mengetahui jam kerja bagian akademik.
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.7443751777877132,1,True,True,FAQ027_Q080,Bagaimana cara hubungi bagian akademik ya?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.8938886669525463,1,True,True,FAQ027_Q050,Tolong jelaskan mengetahui jam kerja bagian akademik.
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.6621826351934601,1,True,True,FAQ027_Q053,"Saya mau tahu, bagaimana cara hubungi bagian akademik bagaimana?"
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.8903527323105852,1,True,True,FAQ027_Q023,Menghubungi layanan administrasi kampus?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.8186681126598825,1,True,True,FAQ027_Q025,Apa prosedur untuk menemukan email admin akademik?
+FAQ027,FAQ027,Layanan Akademik,Situs Resmi Kampus,0.7438749460540992,1,True,True,FAQ027_Q035,Bagaimana cara hubungi layanan administrasi kampus?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9043169690280881,1,True,True,FAQ028_Q089,Gimana cara mengetahui syarat cuti akademik?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.8534199208040211,1,True,True,FAQ028_Q022,Saya ingin menanyakan prosedur cuti mahasiswa.
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.7314530871564762,1,True,True,FAQ028_Q011,Apa prosedur untuk mengetahui syarat cuti akademik?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9251820169107261,1,True,True,FAQ028_Q033,Gimana cara menanyakan prosedur cuti mahasiswa?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9275980442218639,1,True,True,FAQ028_Q081,Gimana cara ngurus izin cuti semester?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9042176559854076,1,True,True,FAQ028_Q071,Mengetahui syarat cuti akademik?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9068630264400449,1,True,True,FAQ028_Q031,Cara ngajuin cuti kuliah bagaimana?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.6551417310406413,1,True,True,FAQ028_Q038,Bagaimana cara mengajukan cuti akademik dong?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.637065448815542,1,True,True,FAQ028_Q026,"Mohon info, bagaimana cara mengajukan cuti akademik?"
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.8597414415909118,1,True,True,FAQ028_Q034,ngajuin cuti kuliah?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9246131190748911,1,True,True,FAQ028_Q068,Cara berhenti kuliah sementara secara resmi bagaimana?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.92785566561,1,True,True,FAQ028_Q003,Gimana cara mengurus izin cuti semester?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.8078691689876516,1,True,True,FAQ028_Q021,Apa prosedur untuk tahu syarat cuti akademik?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.9049273123605671,1,True,True,FAQ028_Q056,Bagaimana cara tahu syarat cuti akademik?
+FAQ028,FAQ028,Status Akademik,Bagian Akademik,0.6653843631139499,1,True,True,FAQ028_Q048,Bagaimana cara mengajukan cuti akademik secara online?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.9233397820500011,1,True,True,FAQ029_Q068,Gimana cara mengecek status aktif mahasiswa?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.9215618597095924,1,True,True,FAQ029_Q044,Cara mengaktifkan status kuliah bagaimana?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.8145003148271341,1,True,True,FAQ029_Q022,"Mohon info, bagaimana jika status mahasiswa saya belum aktif?"
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.846976601323859,1,True,True,FAQ029_Q059,Tolong jelaskan cek status aktif mahasiswa.
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.9253060220320038,1,True,True,FAQ029_Q075,Gimana cara cek status aktif mahasiswa?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.86002056523572,1,True,True,FAQ029_Q041,Saya ingin cek status aktif mahasiswa.
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.9103167816967211,1,True,True,FAQ029_Q067,Cara cek status aktif mahasiswa bagaimana?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.8329262480419787,1,True,True,FAQ029_Q057,Bisa bantu saya menanyakan status akademik bermasalah?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.8027122243505893,1,True,True,FAQ029_Q020,Di mana saya bisa cek status aktif mahasiswa?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.9226279081105329,1,True,True,FAQ029_Q013,Bagaimana cara memperbaiki status mahasiswa tidak aktif?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.8297297346261647,1,True,True,FAQ029_Q037,Apa prosedur untuk mengatasi status belum aktif setelah daftar ulang?
+FAQ029,FAQ029,Status Akademik,Bagian Akademik,0.8208553694070293,1,True,True,FAQ029_Q046,Mohon informasi tentang cek status aktif mahasiswa.
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.9208817033522911,1,True,True,FAQ030_Q055,Apa prosedur untuk apa syarat daftar ulang kuliah?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.826484747545496,1,True,True,FAQ030_Q075,Bisa bantu saya mengecek status registrasi semester?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.8718535221533709,1,True,True,FAQ030_Q023,Melakukan registrasi ulang?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.7388496393724076,1,True,True,FAQ030_Q072,Cara cek status registrasi semester bagaimana?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.7115519509764564,1,True,True,FAQ030_Q037,Mohon informasi tentang cek status registrasi semester.
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.7714453681525308,1,True,True,FAQ030_Q009,"Mohon info, bagaimana cara melakukan daftar ulang semester?"
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.7668174518548294,1,True,True,FAQ030_Q033,Gimana cara cek status registrasi semester?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.9053266924477948,1,True,True,FAQ030_Q004,Mohon informasi tentang apa syarat daftar ulang kuliah.
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.6569802155984518,1,True,True,FAQ030_Q029,Di mana saya bisa melakukan registrasi ulang?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.7875784207015601,1,True,True,FAQ030_Q068,Di mana saya bisa mengetahui jadwal registrasi semester?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.9250350304386771,1,True,True,FAQ030_Q035,Bagaimana cara mengecek status registrasi semester?
+FAQ030,FAQ030,Registrasi,Portal Akademik,0.7369589751916512,1,True,True,FAQ030_Q045,Bisa bantu saya cek status registrasi semester?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.8636902582379512,1,True,True,FAQ031_Q029,Di mana saya bisa tahu kapan UTS dan UAS?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.9363757386041498,1,True,True,FAQ031_Q068,lihat jadwal awal dan akhir semester?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.8417987090868702,1,True,True,FAQ031_Q055,Saya ingin lihat jadwal awal dan akhir semester.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.9017459817394958,1,True,True,FAQ031_Q028,Bagaimana cara cek kalender akademik?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.811921085434085,1,True,True,FAQ031_Q013,Saya ingin mencari tanggal libur akademik.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.8157087146361985,1,True,True,FAQ031_Q002,Saya ingin cek kalender akademik.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.697606819846992,1,True,True,FAQ031_Q016,Tolong jelaskan mengecek kalender akademik.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.814863805997363,1,True,True,FAQ031_Q077,Tolong jelaskan tahu tanggal penting semester.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.9535616649353682,1,True,True,FAQ031_Q023,Gimana cara lihat jadwal awal dan akhir semester?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.8742171874089558,1,True,True,FAQ031_Q035,Mohon informasi tentang mengetahui kapan UTS dan UAS.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.8785874426054636,1,True,True,FAQ031_Q007,Tolong jelaskan mengetahui tanggal penting semester.
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.7628816110518626,1,True,True,FAQ031_Q087,Di mana melihat kalender akademik dong?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.9547159293806518,1,True,True,FAQ031_Q075,Bagaimana cara melihat jadwal awal dan akhir semester?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.9440446559268088,1,True,True,FAQ031_Q058,Bagaimana cara tahu kapan UTS dan UAS?
+FAQ031,FAQ031,Kalender Akademik,Situs Resmi Kampus,0.8161743477750335,1,True,True,FAQ031_Q021,Mohon informasi tentang lihat jadwal awal dan akhir semester.
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8211876443422894,1,True,True,FAQ032_Q089,Bisa bantu saya mengetahui waktu UTS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.9163597913678893,1,True,True,FAQ032_Q012,Gimana cara mencari informasi jadwal ujian?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.6906632150651308,1,True,True,FAQ032_Q072,Tolong jelaskan tahu jadwal UAS.
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8368755007828355,1,True,True,FAQ032_Q036,Di mana saya bisa melihat jadwal ujian tengah semester?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8753966204993587,1,True,True,FAQ032_Q080,tahu jadwal UAS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.9195654573103069,1,True,True,FAQ032_Q053,lihat jadwal ujian tengah semester?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.7675376185217737,1,True,True,FAQ032_Q042,Saya ingin tahu waktu UTS.
+FAQ032,FAQ001,Jadwal Kuliah,Portal Akademik,0.7207582962879053,3,True,True,FAQ032_Q029,Di mana saya bisa mengetahui jadwal UAS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8603423764461389,1,True,True,FAQ032_Q068,Bisa bantu saya melihat jadwal ujian tengah semester?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.9038680734879462,1,True,True,FAQ032_Q083,tahu waktu UTS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.6754699663296887,1,True,True,FAQ032_Q070,Bisa bantu saya mengetahui jadwal UAS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.7845443728395846,1,True,True,FAQ032_Q006,Di mana saya bisa mengetahui waktu UTS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8425956055783215,1,True,True,FAQ032_Q007,Bisa bantu saya cek jadwal ujian akhir semester?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8777244198759423,1,True,True,FAQ032_Q063,Gimana cara tahu jadwal UAS?
+FAQ032,FAQ032,Ujian,Portal Akademik/Program Studi,0.8039197527456342,1,True,True,FAQ032_Q076,Saya ingin lihat jadwal ujian tengah semester.
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.8837850075556937,1,True,True,FAQ033_Q059,Mengajukan ujian susulan?
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.8004722422588019,1,True,True,FAQ033_Q040,Saya ingin menanyakan prosedur ujian pengganti.
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.7420556768724048,1,True,True,FAQ033_Q029,Tolong jelaskan izin tidak mengikuti UTS.
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.7579489626845866,1,True,True,FAQ033_Q018,Di mana saya bisa menanyakan prosedur ujian pengganti?
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.9463582591726714,1,True,True,FAQ033_Q008,Tolong jelaskan tidak bisa hadir saat UAS.
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.7945529065223352,1,True,True,FAQ033_Q004,Tolong jelaskan menanyakan prosedur ujian pengganti.
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.9372321410413683,1,True,True,FAQ033_Q039,Gimana cara menanyakan prosedur ujian pengganti?
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.9124781706917975,1,True,True,FAQ033_Q024,Menanyakan prosedur ujian pengganti?
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.8597819873050115,1,True,True,FAQ033_Q046,ngajuin ujian susulan?
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.9103745944037703,1,True,True,FAQ033_Q066,Di mana saya bisa tidak bisa hadir saat UAS?
+FAQ033,FAQ033,Ujian,Dosen Pengampu/Bagian Akademik,0.9374637670142076,1,True,True,FAQ033_Q020,Bisa bantu saya tidak bisa hadir saat UAS?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.9076845549366388,1,True,True,FAQ034_Q070,tahu ruang laboratorium?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.7939407195722649,1,True,True,FAQ034_Q013,Apa prosedur untuk mencari pengumuman praktikum?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.9329022467642901,1,True,True,FAQ034_Q037,Bagaimana cara mengetahui pembagian kelompok praktikum?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.6986677753216269,1,True,True,FAQ034_Q055,Mohon informasi tentang mengetahui ruang laboratorium.
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.893912402873971,1,True,True,FAQ034_Q042,Cara tahu pembagian kelompok praktikum bagaimana?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.7267905604272321,1,True,True,FAQ034_Q023,Tolong jelaskan mengetahui ruang laboratorium.
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.8485965687999277,1,True,True,FAQ034_Q028,"Saya mau tahu, bagaimana cara tahu jadwal praktikum bagaimana?"
+FAQ034,FAQ001,Jadwal Kuliah,Portal Akademik,0.7166552008344368,2,True,True,FAQ034_Q033,Mohon informasi tentang cek jadwal praktikum.
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.9172711949068967,1,True,True,FAQ034_Q015,Mengetahui pembagian kelompok praktikum?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.763821190778477,1,True,True,FAQ034_Q086,Gimana cara mengetahui ruang laboratorium?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.9139132761089784,1,True,True,FAQ034_Q089,Bagaimana cara mencari pengumuman praktikum?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.7330490853650775,1,True,True,FAQ034_Q026,Mohon informasi tentang tahu ruang laboratorium.
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.783240769157849,1,True,True,FAQ034_Q065,Bagaimana cara mengetahui ruang laboratorium?
+FAQ034,FAQ034,Praktikum,Program Studi/Laboratorium,0.7789111554946073,1,True,True,FAQ034_Q041,Bisa bantu saya lihat waktu praktikum mata kuliah?
+FAQ034,FAQ001,Jadwal Kuliah,Portal Akademik,0.7079579877630602,2,True,True,FAQ034_Q085,Bisa bantu saya cek jadwal praktikum?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.7514743972646296,1,True,True,FAQ035_Q080,Apa prosedur untuk mengetahui syarat magang mahasiswa?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.7582579814439798,1,True,True,FAQ035_Q084,Bagaimana prosedur pendaftaran magang secara online?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.8463546055891826,1,True,True,FAQ035_Q039,Bisa bantu saya menanyakan proses administrasi magang?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.6989742556452849,1,True,True,FAQ035_Q064,Saya ingin mengajukan magang kampus.
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.64624163010973,1,True,True,FAQ035_Q010,Apa prosedur untuk mendaftar program magang?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.6609536202399346,1,True,True,FAQ035_Q085,Apa prosedur untuk mengajukan magang kampus?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.6880910144904775,1,True,True,FAQ035_Q078,Tolong jelaskan mendapatkan panduan magang.
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.6465166541837093,1,True,True,FAQ035_Q056,Di mana saya bisa mengajukan magang kampus?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.8349947718364831,1,True,True,FAQ035_Q005,Tolong jelaskan tahu syarat magang mahasiswa.
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.8148677327215608,1,True,True,FAQ035_Q051,Bagaimana prosedur pendaftaran magang ya?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.8719869870494767,1,True,True,FAQ035_Q008,Tolong jelaskan menanyakan proses administrasi magang.
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.748847169489841,1,True,True,FAQ035_Q030,Mohon informasi tentang mengetahui syarat magang mahasiswa.
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.8878906135986163,1,True,True,FAQ035_Q076,Cara mengetahui syarat magang mahasiswa bagaimana?
+FAQ035,FAQ035,Magang,Program Studi/Unit Magang,0.9052693796067407,1,True,True,FAQ035_Q025,Mengetahui syarat magang mahasiswa?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.8996910684799351,1,True,True,FAQ036_Q070,Gimana cara mencari informasi MBKM?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.9401606701206211,1,True,True,FAQ036_Q025,Cara mengetahui syarat ikut program luar kampus bagaimana?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.9476403401661001,1,True,True,FAQ036_Q053,Cara mendaftar program pembelajaran di luar prodi bagaimana?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.8943177443480217,1,True,True,FAQ036_Q007,Bisa bantu saya tahu syarat ikut program luar kampus?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.8949323772949926,1,True,True,FAQ036_Q001,Gimana cara mengetahui pengumuman MBKM?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.8356441214427538,1,True,True,FAQ036_Q062,Saya ingin tahu pengumuman MBKM.
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.90522600708782,1,True,True,FAQ036_Q016,Tolong jelaskan mengetahui syarat ikut program luar kampus.
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.8436166065359367,1,True,True,FAQ036_Q068,Di mana mendapatkan informasi program MBKM dong?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.738938840336324,1,True,True,FAQ036_Q029,Tolong bantu jelaskan: di mana dapat informasi program MBKM?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.7295735089786554,1,True,True,FAQ036_Q057,"Saya mau tahu, di mana dapat informasi program MBKM bagaimana?"
+FAQ036,FAQ032,Ujian,Portal Akademik/Program Studi,0.6469698172198394,2,True,True,FAQ036_Q064,Di mana saya bisa mencari informasi MBKM?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.8390590460742141,1,True,True,FAQ036_Q052,Di mana dapat informasi program MBKM dong?
+FAQ036,FAQ036,MBKM,Unit Pengelola Program,0.820131012072123,1,True,True,FAQ036_Q021,Tolong jelaskan mengetahui pengumuman MBKM.
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8721681542812834,1,True,True,FAQ037_Q065,Mohon informasi tentang mengetahui jadwal open recruitment organisasi.
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.7749442220179533,1,True,True,FAQ037_Q001,Mohon informasi tentang mendaftar organisasi mahasiswa.
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8335648078110522,1,True,True,FAQ037_Q004,Bisa bantu saya tahu jadwal open recruitment organisasi?
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8833142715224978,1,True,True,FAQ037_Q010,Bergabung dengan UKM kampus?
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.809084049561091,1,True,True,FAQ037_Q048,Apa prosedur untuk menemukan kontak organisasi kampus?
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8430129828364467,1,True,True,FAQ037_Q041,Tolong jelaskan tahu jadwal open recruitment organisasi.
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8909238677331894,1,True,True,FAQ037_Q031,Cara tahu jadwal open recruitment organisasi bagaimana?
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8840152943904367,1,True,True,FAQ037_Q045,Bisa bantu saya mengetahui jadwal open recruitment organisasi?
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8112897909872636,1,True,True,FAQ037_Q020,Tolong jelaskan mendaftar organisasi mahasiswa.
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.9178258916094665,1,True,True,FAQ037_Q002,Gimana cara mendaftar organisasi mahasiswa?
+FAQ037,FAQ037,Organisasi Mahasiswa,Kemahasiswaan/Organisasi,0.8138260701290735,1,True,True,FAQ037_Q050,Bisa bantu saya mencari kegiatan kemahasiswaan?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.9134186257319536,1,True,True,FAQ038_Q069,Cara pakai fasilitas kampus bagaimana?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.9212146149428375,1,True,True,FAQ038_Q008,Bagaimana cara mengetahui aturan peminjaman ruangan?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.8745690580599901,1,True,True,FAQ038_Q061,Saya ingin tahu aturan peminjaman ruangan.
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.8915882369092951,1,True,True,FAQ038_Q027,Bisa bantu saya mengakses fasilitas mahasiswa?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.9218053678850089,1,True,True,FAQ038_Q056,Bisa bantu saya memesan ruang belajar kampus?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.8765764648787696,1,True,True,FAQ038_Q077,Apa prosedur untuk mengakses fasilitas mahasiswa?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.7795198994486621,1,True,True,FAQ038_Q059,Tolong jelaskan mengetahui aturan peminjaman ruangan.
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.902373558459238,1,True,True,FAQ038_Q011,Mengetahui aturan peminjaman ruangan?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.8486926929172449,1,True,True,FAQ038_Q067,Bagaimana cara pakai fasilitas kampus dong?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.8593541164643127,1,True,True,FAQ038_Q051,Tolong jelaskan tahu aturan peminjaman ruangan.
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.7657728598395357,1,True,True,FAQ038_Q058,Bisa bantu saya mengetahui aturan peminjaman ruangan?
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.9069293638062923,1,True,True,FAQ038_Q050,Tolong jelaskan pakai fasilitas kampus.
+FAQ038,FAQ038,Fasilitas Kampus,Unit Pengelola Fasilitas,0.8510007450445654,1,True,True,FAQ038_Q060,Bagaimana cara pakai fasilitas kampus ya?
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.865302142255566,1,True,True,FAQ039_Q013,Saya ingin mencari tempat parkir kampus.
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.8590531022289761,1,True,True,FAQ039_Q017,Mohon informasi tentang mencari informasi parkir motor.
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.9013038778385435,1,True,True,FAQ039_Q010,Gimana cara mencari informasi parkir motor?
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.8757929569163306,1,True,True,FAQ039_Q076,Saya ingin mencari informasi parkir motor.
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.7819348968198634,1,True,True,FAQ039_Q063,Bisa bantu saya mengetahui lokasi parkir mahasiswa?
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.8506154252994849,1,True,True,FAQ039_Q016,Bisa bantu saya mencari informasi parkir motor?
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.8759457965146141,1,True,True,FAQ039_Q006,Saya ingin tahu akses parkir kampus.
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.9315507499479457,1,True,True,FAQ039_Q035,Bagaimana cara mencari tempat parkir kampus?
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.862725924723131,1,True,True,FAQ039_Q040,Cara tahu lokasi parkir mahasiswa bagaimana?
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.7960178403563823,1,True,True,FAQ039_Q041,Tolong jelaskan mengetahui lokasi parkir mahasiswa.
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.8338495947242852,1,True,True,FAQ039_Q044,Mohon informasi tentang tahu akses parkir kampus.
+FAQ039,FAQ039,Parkir,Pengelola Fasilitas,0.9219873841587275,1,True,True,FAQ039_Q032,Mengetahui lokasi parkir mahasiswa?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.7718965738289361,1,True,True,FAQ040_Q045,Bagaimana cara ngurus kartu mahasiswa yang hilang ya?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.7728719750923115,1,True,True,FAQ040_Q065,Bagaimana cara mengurus kartu mahasiswa yang hilang dong?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.9287760286860197,1,True,True,FAQ040_Q079,tahu syarat penggantian KTM?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.9282732252554629,1,True,True,FAQ040_Q042,Mengetahui syarat penggantian KTM?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.7902227310835273,1,True,True,FAQ040_Q057,Saya ingin melaporkan kehilangan kartu mahasiswa.
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.983635761699454,1,True,True,FAQ040_Q052,Cara mengetahui syarat penggantian KTM bagaimana?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.8287520563346591,1,True,True,FAQ040_Q068,Apa prosedur untuk mengganti KTM yang hilang?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.878521597360146,1,True,True,FAQ040_Q049,Di mana saya bisa membuat kartu mahasiswa baru?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.9253147363510894,1,True,True,FAQ040_Q063,Gimana cara mengurus kartu mahasiswa rusak?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.7539397734303153,1,True,True,FAQ040_Q030,Apa prosedur untuk melaporkan kehilangan kartu mahasiswa?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.9836507814809233,1,True,True,FAQ040_Q039,Cara tahu syarat penggantian KTM bagaimana?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.9269213893711966,1,True,True,FAQ040_Q047,Gimana cara mengetahui syarat penggantian KTM?
+FAQ040,FAQ040,Kartu Mahasiswa,Bagian Akademik,0.8434794074220268,1,True,True,FAQ040_Q003,Tolong jelaskan mengganti KTM yang hilang.
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.7979418500534572,1,True,True,FAQ041_Q014,Mohon informasi tentang tahu alamat email kampus saya.
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.6519691745275201,1,True,True,FAQ041_Q006,Saya ingin mengaktifkan email kampus.
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.8062340928815044,1,True,True,FAQ041_Q030,Gimana cara mengatasi email mahasiswa tidak bisa login?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.7230239560560159,1,True,True,FAQ041_Q044,Bagaimana cara mengakses email kampus dong?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.8180494867730997,1,True,True,FAQ041_Q024,Bagaimana cara mengatasi email mahasiswa tidak bisa login?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.9461187160269978,1,True,True,FAQ041_Q009,Bagaimana cara ngatasin email mahasiswa tidak bisa login?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.8927524488825369,1,True,True,FAQ041_Q046,Saya ingin ngatasin email mahasiswa tidak bisa login.
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.8319325513687612,1,True,True,FAQ041_Q045,Mengaktifkan email kampus?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.9052993438243456,1,True,True,FAQ041_Q008,Tolong jelaskan membuka email mahasiswa.
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.751834335420692,1,True,True,FAQ041_Q041,Apa prosedur untuk membuka email mahasiswa?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.7559818862354024,1,True,True,FAQ041_Q001,Cara mengatasi email mahasiswa tidak bisa login bagaimana?
+FAQ041,FAQ041,Email Kampus,Layanan TI,0.9334382075453894,1,True,True,FAQ041_Q018,tahu alamat email kampus saya?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8173823092176645,1,True,True,FAQ042_Q041,Di mana saya bisa tahu jumlah SKS untuk lulus?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8926953908890869,1,True,True,FAQ042_Q043,Cara mengecek syarat lulus kuliah bagaimana?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8625866398007074,1,True,True,FAQ042_Q084,Di mana saya bisa mengetahui jumlah SKS untuk lulus?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.9291486464342825,1,True,True,FAQ042_Q014,cek persyaratan kelulusan program studi?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.9454517383426004,1,True,True,FAQ042_Q007,Tolong jelaskan memeriksa persyaratan kelulusan program studi.
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.7872681376943734,1,True,True,FAQ042_Q063,Di mana saya bisa cek persyaratan kelulusan program studi?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.889418186880193,1,True,True,FAQ042_Q009,Gimana cara cek syarat lulus kuliah?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8834688549399111,1,True,True,FAQ042_Q018,Mengecek syarat lulus kuliah?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.833872137803947,1,True,True,FAQ042_Q010,Di mana saya bisa memeriksa persyaratan kelulusan program studi?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8266620400534525,1,True,True,FAQ042_Q076,"Saya mau tahu, bagaimana cara mengetahui persyaratan kelulusan bagaimana?"
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8963428474012911,1,True,True,FAQ042_Q022,Gimana cara tahu aturan kelulusan mahasiswa?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.8677379836347474,1,True,True,FAQ042_Q066,Cara mengetahui jumlah SKS untuk lulus bagaimana?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.9426048328048956,1,True,True,FAQ042_Q065,Gimana cara tahu jumlah SKS untuk lulus?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.9295224245944798,1,True,True,FAQ042_Q079,Bagaimana cara mengecek syarat lulus kuliah?
+FAQ042,FAQ042,Kelulusan,Program Studi/Bagian Akademik,0.9174220764943612,1,True,True,FAQ042_Q080,Bagaimana cara tahu aturan kelulusan mahasiswa?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.7865043666564251,1,True,True,FAQ043_Q070,Bisa bantu saya mengetahui aturan konversi kredit?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.8625002618330764,1,True,True,FAQ043_Q055,Cara mengetahui aturan konversi kredit bagaimana?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.9869600688675962,1,True,True,FAQ043_Q001,Cara menanyakan pengakuan SKS kegiatan bagaimana?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.9129438813474836,1,True,True,FAQ043_Q042,Bagaimana cara ngajuin konversi SKS?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.7791296285351108,1,True,True,FAQ043_Q062,Apa prosedur untuk ngajuin konversi SKS?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.8666036227451304,1,True,True,FAQ043_Q084,ngurus konversi mata kuliah?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.7807467758311954,1,True,True,FAQ043_Q017,Mohon informasi tentang mengajukan konversi SKS.
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.8226219475327674,1,True,True,FAQ043_Q085,Saya ingin mengajukan konversi SKS.
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.7868011012747345,1,True,True,FAQ043_Q045,Mohon informasi tentang mengurus konversi mata kuliah.
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.9238574751872104,1,True,True,FAQ043_Q068,Mengetahui aturan konversi kredit?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.9267188507195974,1,True,True,FAQ043_Q048,Apa prosedur untuk mengubah kegiatan menjadi kredit kuliah?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.7713572358525119,1,True,True,FAQ043_Q035,Di mana saya bisa mengurus konversi mata kuliah?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.7905984211996594,1,True,True,FAQ043_Q004,Bisa bantu saya mengajukan konversi SKS?
+FAQ043,FAQ043,Konversi SKS,Program Studi,0.885467749116591,1,True,True,FAQ043_Q043,Saya ingin menanyakan pengakuan SKS kegiatan.
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8104421641878967,1,True,True,FAQ044_Q037,Apa prosedur untuk dapat surat rekomendasi beasiswa?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8655701025927264,1,True,True,FAQ044_Q031,Cara mendapatkan surat rekomendasi beasiswa bagaimana?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8643668567691059,1,True,True,FAQ044_Q017,Tolong jelaskan mengurus rekomendasi untuk program akademik.
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8703268113005648,1,True,True,FAQ044_Q014,Bisa bantu saya mengetahui cara meminta referensi dosen?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.6840494282529828,1,True,True,FAQ044_Q070,Di mana saya bisa mendapatkan surat rekomendasi beasiswa?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8838189184612665,1,True,True,FAQ044_Q001,Tolong jelaskan mengetahui cara meminta referensi dosen.
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.922112826516396,1,True,True,FAQ044_Q063,Gimana cara ngajuin surat rekomendasi akademik?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.857409718389801,1,True,True,FAQ044_Q032,Mohon informasi tentang mengetahui cara meminta referensi dosen.
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.9301768311277162,1,True,True,FAQ044_Q085,Bagaimana cara mendapatkan surat rekomendasi beasiswa?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.824623285288748,1,True,True,FAQ044_Q064,Di mana saya bisa ngurus rekomendasi untuk program akademik?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.9212086251908267,1,True,True,FAQ044_Q090,Cara ngajuin surat rekomendasi akademik bagaimana?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8397499736358084,1,True,True,FAQ044_Q050,Saya ingin mengajukan surat rekomendasi akademik.
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.7892915263428184,1,True,True,FAQ044_Q055,Di mana saya bisa ngajuin surat rekomendasi akademik?
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.796518739711874,1,True,True,FAQ044_Q003,Tolong jelaskan meminta rekomendasi dari dosen.
+FAQ044,FAQ044,Surat Rekomendasi,Dosen/Program Studi,0.8070670464945822,1,True,True,FAQ044_Q073,Saya ingin meminta rekomendasi dari dosen.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.8147639149823552,1,True,True,FAQ045_Q016,Saya ingin mengadukan kendala perkuliahan.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.9153239093032953,1,True,True,FAQ045_Q057,Apa prosedur untuk menyampaikan keluhan layanan kampus?
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.7067888467360998,1,True,True,FAQ045_Q031,"Saya mau tahu, bagaimana cara menyampaikan pengaduan akademik bagaimana?"
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.9429694145715307,1,True,True,FAQ045_Q017,Tolong jelaskan menyampaikan keluhan layanan kampus.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.9467977523951208,1,True,True,FAQ045_Q006,Bagaimana cara menyampaikan keluhan layanan kampus?
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.7889751315956695,1,True,True,FAQ045_Q029,Tolong jelaskan mengadukan kendala kuliah.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.7873116814870572,1,True,True,FAQ045_Q039,Mohon informasi tentang mengadukan kendala kuliah.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.7652208073477209,1,True,True,FAQ045_Q044,Mohon informasi tentang melaporkan masalah akademik.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.8333012985829087,1,True,True,FAQ045_Q047,Apa prosedur untuk menemukan kanal pengaduan mahasiswa?
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.9520355852799881,1,True,True,FAQ045_Q050,Saya ingin menyampaikan keluhan layanan kampus.
+FAQ045,FAQ045,Pengaduan,Kanal Pengaduan Kampus,0.8669017446092536,1,True,True,FAQ045_Q041,Tolong jelaskan menemukan kanal pengaduan mahasiswa.
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.7356695602136945,1,True,True,FAQ046_Q039,Tolong jelaskan melaporkan login mencurigakan.
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.8621840844744376,1,True,True,FAQ046_Q020,Bisa bantu saya mengganti kata sandi yang bocor?
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.8279331002936194,1,True,True,FAQ046_Q038,Tolong jelaskan menghindari akun akademik diretas.
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.9173906991309815,1,True,True,FAQ046_Q005,Cara melindungi data akun kampus bagaimana?
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.9497633007819872,1,True,True,FAQ046_Q036,Bagaimana cara melindungi data akun kampus?
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.9281682817528663,1,True,True,FAQ046_Q003,Gimana cara mengamankan akun mahasiswa?
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.8797873492035584,1,True,True,FAQ046_Q022,Menghindari akun akademik diretas?
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.8193007157789569,1,True,True,FAQ046_Q018,Bagaimana menjaga keamanan akun akademik dong?
+FAQ046,FAQ046,Keamanan Akun,Layanan TI,0.9123879878666653,1,True,True,FAQ046_Q052,Mohon informasi tentang melindungi data akun kampus.

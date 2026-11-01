@@ -1,0 +1,4 @@
+Model,Split,Samples,Top-1 Accuracy,Recall@3,MRR,Coverage@0.20,Score Source
+TF-IDF + Cosine Similarity,validation,531,0.9905838041431262,1.0,0.995291902071563,1.0,freshly-scored
+TF-IDF + Cosine Similarity,test,603,0.988391376451078,1.0,0.993919292426755,1.0,freshly-scored
+Sentence Transformer (cached scores),test,603,0.8474295190713101,0.9369817578772802,0.897587085458256,1.0,cached-score-matrix

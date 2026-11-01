@@ -3,8 +3,6 @@ services:
     name: smart-academic-assistant
     env: python
     plan: free
-    buildCommand: |
-      pip install -r requirements.txt
-      python ../03_model_pipeline/train_tfidf.py
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn wsgi:app --bind 0.0.0.0:$PORT
     healthCheckPath: /health

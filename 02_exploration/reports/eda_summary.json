@@ -1,0 +1,38 @@
+{
+  "data_provenance": "Query train/validation/test berasal dari dataset sintetis faq_academic_master.csv; bukan log pertanyaan mahasiswa nyata.",
+  "faq_count": 46,
+  "category_count": 31,
+  "source_count": 26,
+  "master_query_count": 3754,
+  "canonical_faq_ids_match": true,
+  "split_query_counts": {
+    "train": 2574,
+    "validation": 531,
+    "test": 603
+  },
+  "exact_normalized_question_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "category_label_mismatches": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "faq_missing_values": {
+    "faq_id": 0,
+    "question": 0,
+    "answer": 0,
+    "category": 0,
+    "source": 0
+  },
+  "faq_blank_text_values": {
+    "question": 0,
+    "answer": 0,
+    "category": 0,
+    "source": 0
+  },
+  "faq_duplicate_ids": 0,
+  "faq_duplicate_questions": 0
+}
