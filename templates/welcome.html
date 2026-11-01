@@ -16,7 +16,7 @@
     >
     <link
         rel="stylesheet"
-        href="{{ url_for('static', filename='css/welcome.css') }}"
+        href="{{ url_for('static', filename='css/welcome.css', v='20261101-mobile1') }}"
     >
 </head>
 <body>
@@ -242,6 +242,9 @@
                   fill="none" stroke="#c9dfbd" stroke-width="4" opacity=".9"/>
         </svg>
     </main>
-    <script src="{{ url_for('static', filename='js/welcome.js') }}" defer></script>
+    <script
+        src="{{ url_for('static', filename='js/welcome.js', v='20261101-mobile1') }}"
+        defer
+    ></script>
 </body>
 </html>

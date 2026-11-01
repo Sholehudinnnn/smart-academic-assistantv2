@@ -21,7 +21,7 @@
 
     <link
         rel="stylesheet"
-        href="{{ url_for('static', filename='css/style.css') }}"
+        href="{{ url_for('static', filename='css/style.css', v='20261101-mobile2') }}"
     >
 </head>
 
@@ -45,58 +45,83 @@
                 </div>
             </a>
 
-            {% if page == 'chat' %}
-            <button type="button" class="new-chat" id="newChat">
-                <i class="fa-solid fa-plus"></i>
-                Percakapan Baru
+            <button
+                type="button"
+                class="mobile-menu-toggle"
+                id="mobileMenuToggle"
+                aria-controls="mobileMenu"
+                aria-expanded="false"
+                aria-label="Buka menu navigasi"
+                title="Menu"
+            >
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
             </button>
-            {% else %}
-            <a class="new-chat" href="{{ url_for('index', page='chat') }}">
-                <i class="fa-solid fa-comments"></i>
-                Buka Chat Assistant
-            </a>
-            {% endif %}
 
-            <div class="sidebar-label">MENU UTAMA</div>
-
-            <nav class="navigation">
-
+            <div class="sidebar-menu" id="mobileMenu">
+                {% if page == 'chat' %}
+                <button
+                    type="button"
+                    class="new-chat"
+                    id="newChat"
+                    aria-label="Percakapan Baru"
+                    title="Percakapan Baru"
+                >
+                    <i class="fa-solid fa-plus"></i>
+                    Percakapan Baru
+                </button>
+                {% else %}
                 <a
-                    class="menu-item {% if page == 'chat' %}active{% endif %}"
+                    class="new-chat"
                     href="{{ url_for('index', page='chat') }}"
+                    aria-label="Buka Chat Assistant"
+                    title="Buka Chat Assistant"
                 >
                     <i class="fa-solid fa-comments"></i>
-                    <span>Chat Assistant</span>
+                    Buka Chat Assistant
                 </a>
+                {% endif %}
 
-                <a
-                    class="menu-item"
-                    href="https://colab.research.google.com/drive/1Xs8rqR1b8xX3-KzP_21Fq_auPWTk8j4N?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <i class="fa-solid fa-diagram-project"></i>
-                    <span>Link Pipeline</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
-                </a>
+                <div class="sidebar-label">MENU UTAMA</div>
 
-                <a
-                    class="menu-item {% if page == 'evaluation' %}active{% endif %}"
-                    href="{{ url_for('index', page='evaluation') }}"
-                >
-                    <i class="fa-solid fa-chart-column"></i>
-                    <span>Hasil Pengujian</span>
-                </a>
+                <nav class="navigation" aria-label="Menu utama">
 
-                <a
-                    class="menu-item {% if page == 'history' %}active{% endif %}"
-                    href="{{ url_for('index', page='history') }}"
-                >
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <span>History</span>
-                </a>
+                    <a
+                        class="menu-item {% if page == 'chat' %}active{% endif %}"
+                        href="{{ url_for('index', page='chat') }}"
+                    >
+                        <i class="fa-solid fa-comments"></i>
+                        <span>Chat Assistant</span>
+                    </a>
 
-            </nav>
+                    <a
+                        class="menu-item"
+                        href="https://colab.research.google.com/drive/1Xs8rqR1b8xX3-KzP_21Fq_auPWTk8j4N?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>Link Pipeline</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                    </a>
+
+                    <a
+                        class="menu-item {% if page == 'evaluation' %}active{% endif %}"
+                        href="{{ url_for('index', page='evaluation') }}"
+                    >
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>Hasil Pengujian</span>
+                    </a>
+
+                    <a
+                        class="menu-item {% if page == 'history' %}active{% endif %}"
+                        href="{{ url_for('index', page='history') }}"
+                    >
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <span>History</span>
+                    </a>
+
+                </nav>
+            </div>
         </div>
 
         <div class="sidebar-bottom">
@@ -685,6 +710,50 @@
     "use strict";
 
     const STORAGE_KEY = "smart_academic_history_v1";
+    const mobileMenuToggle = document.getElementById("mobileMenuToggle");
+    const sidebar = document.querySelector(".sidebar");
+
+    function closeMobileMenu() {
+        if (!mobileMenuToggle || !sidebar) {
+            return;
+        }
+
+        sidebar.classList.remove("menu-open");
+        mobileMenuToggle.setAttribute("aria-expanded", "false");
+        mobileMenuToggle.setAttribute("aria-label", "Buka menu navigasi");
+        mobileMenuToggle.innerHTML =
+            '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+    }
+
+    if (mobileMenuToggle && sidebar) {
+        mobileMenuToggle.addEventListener("click", () => {
+            const isOpen = sidebar.classList.toggle("menu-open");
+            mobileMenuToggle.setAttribute("aria-expanded", String(isOpen));
+            mobileMenuToggle.setAttribute(
+                "aria-label",
+                isOpen ? "Tutup menu navigasi" : "Buka menu navigasi"
+            );
+            mobileMenuToggle.innerHTML = isOpen
+                ? '<i class="fa-solid fa-xmark" aria-hidden="true"></i>'
+                : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
+        });
+
+        sidebar.querySelectorAll(".navigation a, .new-chat").forEach(item => {
+            item.addEventListener("click", closeMobileMenu);
+        });
+
+        document.addEventListener("keydown", event => {
+            if (event.key === "Escape") {
+                closeMobileMenu();
+            }
+        });
+
+        document.addEventListener("click", event => {
+            if (!event.composedPath().includes(sidebar)) {
+                closeMobileMenu();
+            }
+        });
+    }
 
     function getHistory() {
         try {
