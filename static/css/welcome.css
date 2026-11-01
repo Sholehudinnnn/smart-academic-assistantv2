@@ -797,6 +797,36 @@ body {
         height: clamp(210px, 31vh, 275px);
     }
 
+    .illustration-aura {
+        animation-duration: 2.8s;
+    }
+
+    .academic-illustration {
+        animation-duration: 3.8s;
+    }
+
+    .orbit-one {
+        animation-duration: 3.5s;
+    }
+
+    .orbit-two {
+        animation-duration: 4.5s;
+    }
+
+    .floating-card {
+        animation-duration: 3.6s;
+    }
+
+    .robot {
+        animation-name: mobile-robot-bob;
+        animation-duration: 2.4s;
+    }
+
+    @keyframes mobile-robot-bob {
+        0%, 100% { transform: translateY(0) rotate(0); }
+        50% { transform: translateY(-8px) rotate(.8deg); }
+    }
+
     .welcome-copy h1 {
         font-size: clamp(33px, 8.6vw, 56px);
     }

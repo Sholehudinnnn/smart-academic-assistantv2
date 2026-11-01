@@ -1419,7 +1419,7 @@ input:focus-visible {
 
 .related-title {
 
-    margin: 4px 0 10px 49px;
+    margin: 4px 0 10px;
 
     color: #879287;
 
@@ -1440,8 +1440,6 @@ input:focus-visible {
     flex-wrap: wrap;
 
     gap: 10px;
-
-    margin-left: 49px;
 
 }
 
@@ -2890,7 +2888,7 @@ input:focus-visible {
 
     .related-list {
 
-        margin-left: 40px;
+        margin-left: 0;
 
     }
 
@@ -3095,7 +3093,7 @@ input:focus-visible {
 
     .related-list {
 
-        margin-left: 40px;
+        margin-left: 0;
 
     }
 
