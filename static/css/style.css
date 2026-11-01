@@ -2587,6 +2587,10 @@ input:focus-visible {
         display: none;
     }
 
+    .topbar {
+        display: none;
+    }
+
     .main {
 
         min-height: auto;
