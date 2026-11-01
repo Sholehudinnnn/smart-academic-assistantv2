@@ -2370,6 +2370,7 @@ input:focus-visible {
     .app {
 
         flex-direction: column;
+        overflow-x: clip;
 
     }
 
@@ -2642,17 +2643,23 @@ input:focus-visible {
 
     .content {
 
-        padding: 24px 16px;
+        padding: 14px 14px 18px;
 
     }
 
     .welcome-section {
 
-        gap: 10px;
+        gap: 6px;
+        margin-bottom: 12px;
 
     }
 
-    .welcome-section h1,
+    .welcome-section h1 {
+
+        font-size: 23px;
+        line-height: 1.18;
+
+    }
 
     .history-heading h1 {
 
@@ -2662,11 +2669,17 @@ input:focus-visible {
 
     .welcome-tag {
 
-        font-size: 9px;
+        margin-bottom: 8px;
+        padding: 6px 10px;
+        font-size: 8px;
 
     }
 
-    .welcome-description,
+    .welcome-description {
+
+        font-size: 11px;
+
+    }
 
     .history-heading p {
 
@@ -2674,11 +2687,32 @@ input:focus-visible {
 
     }
 
+    .welcome-description {
+        display: -webkit-box;
+        overflow: hidden;
+        margin-top: 7px;
+        line-height: 1.5;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .system-status {
+        gap: 7px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .system-status .status-separator,
+    .system-status > i,
+    .system-status > span:last-child {
+        display: none;
+    }
+
     .hero-illustration {
 
-        width: 90px;
+        width: 72px;
 
-        height: 95px;
+        height: 76px;
 
     }
 
@@ -2724,7 +2758,7 @@ input:focus-visible {
 
     .chat-card {
 
-        min-height: 440px;
+        min-height: 380px;
 
         border-radius: 16px;
 
@@ -2780,9 +2814,9 @@ input:focus-visible {
 
         gap: 16px;
 
-        min-height: 240px;
+        min-height: 190px;
 
-        max-height: 470px;
+        max-height: 36vh;
 
         padding: 16px 13px;
 
