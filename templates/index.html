@@ -21,7 +21,7 @@
 
     <link
         rel="stylesheet"
-        href="{{ url_for('static', filename='css/style.css', v='20261101-mobile3') }}"
+        href="{{ url_for('static', filename='css/style.css', v='20261101-mobile4') }}"
     >
 </head>
 
@@ -59,7 +59,12 @@
 
             <div class="sidebar-menu" id="mobileMenu">
                 <div class="mobile-drawer-heading">
-                    <h2>NAVIGASI</h2>
+                    <div class="mobile-drawer-brand">
+                        <span class="mobile-drawer-brand-icon" aria-hidden="true">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </span>
+                        <h2>Smart Academic Menu</h2>
+                    </div>
                     <button
                         type="button"
                         class="mobile-menu-close"
