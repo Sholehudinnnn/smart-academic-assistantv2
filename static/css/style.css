@@ -1319,7 +1319,7 @@ input:focus-visible {
 
     text-align: left;
 
-    white-space: pre-wrap;
+    white-space: normal;
 
     overflow-wrap: anywhere;
 
