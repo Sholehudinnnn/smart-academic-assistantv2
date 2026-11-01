@@ -214,6 +214,13 @@ input:focus-visible {
 
 }
 
+.mobile-drawer-heading,
+.mobile-menu-close {
+
+    display: none;
+
+}
+
 /* BRAND */
 
 .brand {
@@ -2368,6 +2375,8 @@ input:focus-visible {
 
     .sidebar {
 
+        position: relative;
+        z-index: 1001;
         flex: 0 0 auto;
 
         width: 100%;
@@ -2377,6 +2386,8 @@ input:focus-visible {
         min-height: auto;
 
         padding: 15px 16px;
+
+        overflow: visible;
 
         border-right: none;
 
@@ -2404,13 +2415,13 @@ input:focus-visible {
 
     .sidebar-top {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-columns: 44px minmax(0, 1fr);
         align-items: center;
-        column-gap: 10px;
+        column-gap: 12px;
     }
 
     .brand {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 1;
         min-width: 0;
         margin: 0;
@@ -2418,31 +2429,90 @@ input:focus-visible {
 
     .mobile-menu-toggle {
         display: flex;
-        grid-column: 2;
+        grid-column: 1;
         grid-row: 1;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 13px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .sidebar-menu {
+        position: fixed;
+        z-index: 1002;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: min(300px, 84vw);
+        padding: 22px 18px 24px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        background:
+            radial-gradient(120% 60% at 0% 0%, rgba(69, 107, 86, 0.24), transparent 60%),
+            radial-gradient(90% 50% at 100% 100%, rgba(130, 149, 120, 0.18), transparent 65%),
+            linear-gradient(180deg, var(--sidebar-bg-2), var(--sidebar-bg));
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 18px 0 48px rgba(8, 15, 11, 0.28);
+        transform: translateX(-105%);
+        visibility: hidden;
+        transition: transform 0.26s ease, visibility 0.26s ease;
+    }
+
+    .sidebar.menu-open .sidebar-menu {
+        transform: translateX(0);
+        visibility: visible;
+    }
+
+    .mobile-drawer-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 44px;
+        margin-bottom: 18px;
+    }
+
+    .mobile-drawer-heading h2 {
+        margin: 0;
+        color: var(--sidebar-text);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+    }
+
+    .mobile-menu-close {
+        display: flex;
         align-items: center;
         justify-content: center;
         width: 40px;
         height: 40px;
-        color: #fff;
+        color: var(--sidebar-text);
         background: rgba(255, 255, 255, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.14);
         border-radius: 12px;
         cursor: pointer;
-        font-size: 17px;
+        font-size: 16px;
     }
 
-    .sidebar-menu {
-        display: none;
-        grid-column: 1 / -1;
+    .mobile-menu-backdrop:not([hidden]) {
+        position: fixed;
+        z-index: 1000;
+        inset: 0;
+        display: block;
         width: 100%;
-        padding-top: 12px;
-    }
-
-    .sidebar.menu-open .sidebar-menu {
-        display: flex;
-        flex-direction: column;
-        animation: fadeUp 0.22s ease both;
+        height: 100%;
+        padding: 0;
+        background: rgba(8, 15, 11, 0.52);
+        border: 0;
+        cursor: pointer;
+        animation: fadeUp 0.18s ease both;
     }
 
     .new-chat {

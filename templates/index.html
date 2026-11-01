@@ -21,7 +21,7 @@
 
     <link
         rel="stylesheet"
-        href="{{ url_for('static', filename='css/style.css', v='20261101-mobile2') }}"
+        href="{{ url_for('static', filename='css/style.css', v='20261101-mobile3') }}"
     >
 </head>
 
@@ -58,6 +58,19 @@
             </button>
 
             <div class="sidebar-menu" id="mobileMenu">
+                <div class="mobile-drawer-heading">
+                    <h2>NAVIGASI</h2>
+                    <button
+                        type="button"
+                        class="mobile-menu-close"
+                        id="mobileMenuClose"
+                        aria-label="Tutup menu navigasi"
+                        title="Tutup menu"
+                    >
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </button>
+                </div>
+
                 {% if page == 'chat' %}
                 <button
                     type="button"
@@ -146,6 +159,15 @@
 
         </div>
     </aside>
+
+    <button
+        type="button"
+        class="mobile-menu-backdrop"
+        id="mobileMenuBackdrop"
+        aria-label="Tutup menu navigasi"
+        tabindex="-1"
+        hidden
+    ></button>
 
 
     <!-- ================= MAIN CONTENT ================= -->
@@ -711,23 +733,27 @@
 
     const STORAGE_KEY = "smart_academic_history_v1";
     const mobileMenuToggle = document.getElementById("mobileMenuToggle");
+    const mobileMenuClose = document.getElementById("mobileMenuClose");
+    const mobileMenuBackdrop = document.getElementById("mobileMenuBackdrop");
     const sidebar = document.querySelector(".sidebar");
 
     function closeMobileMenu() {
-        if (!mobileMenuToggle || !sidebar) {
+        if (!mobileMenuToggle || !sidebar || !mobileMenuBackdrop) {
             return;
         }
 
         sidebar.classList.remove("menu-open");
+        mobileMenuBackdrop.hidden = true;
         mobileMenuToggle.setAttribute("aria-expanded", "false");
         mobileMenuToggle.setAttribute("aria-label", "Buka menu navigasi");
         mobileMenuToggle.innerHTML =
             '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
     }
 
-    if (mobileMenuToggle && sidebar) {
+    if (mobileMenuToggle && mobileMenuBackdrop && sidebar) {
         mobileMenuToggle.addEventListener("click", () => {
             const isOpen = sidebar.classList.toggle("menu-open");
+            mobileMenuBackdrop.hidden = !isOpen;
             mobileMenuToggle.setAttribute("aria-expanded", String(isOpen));
             mobileMenuToggle.setAttribute(
                 "aria-label",
@@ -738,18 +764,15 @@
                 : '<i class="fa-solid fa-bars" aria-hidden="true"></i>';
         });
 
+        mobileMenuClose.addEventListener("click", closeMobileMenu);
+        mobileMenuBackdrop.addEventListener("click", closeMobileMenu);
+
         sidebar.querySelectorAll(".navigation a, .new-chat").forEach(item => {
             item.addEventListener("click", closeMobileMenu);
         });
 
         document.addEventListener("keydown", event => {
             if (event.key === "Escape") {
-                closeMobileMenu();
-            }
-        });
-
-        document.addEventListener("click", event => {
-            if (!event.composedPath().includes(sidebar)) {
                 closeMobileMenu();
             }
         });
