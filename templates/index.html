@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -72,13 +71,21 @@
 
                 <a
                     class="menu-item"
-                    href="https://colab.research.google.com/"
+                    href="https://colab.research.google.com/drive/1Xs8rqR1b8xX3-KzP_21Fq_auPWTk8j4N?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <i class="fa-solid fa-diagram-project"></i>
                     <span>Link Pipeline</span>
                     <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                </a>
+
+                <a
+                    class="menu-item {% if page == 'evaluation' %}active{% endif %}"
+                    href="{{ url_for('index', page='evaluation') }}"
+                >
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>Hasil Pengujian</span>
                 </a>
 
                 <a
@@ -129,6 +136,8 @@
                 <strong>
                     {% if page == 'history' %}
                         History
+                    {% elif page == 'evaluation' %}
+                        Hasil Pengujian
                     {% else %}
                         Chat Assistant
                     {% endif %}
@@ -365,6 +374,221 @@
         <!-- =========================================
              HALAMAN HISTORY
         ========================================== -->
+        {% elif page == 'evaluation' %}
+
+        <section class="content evaluation-page">
+
+            <div class="welcome-tag">
+                <i class="fa-solid fa-chart-column"></i>
+                HASIL PENGUJIAN MODEL
+            </div>
+
+            <div class="evaluation-heading">
+                <h1>Hasil <span>Pengujian</span></h1>
+                <p>
+                    Perbandingan performa retrieval berdasarkan hasil evaluasi
+                    yang tersimpan di proyek.
+                </p>
+            </div>
+
+            {% if evaluation_error %}
+            <div class="evaluation-alert" role="alert">
+                <strong>Laporan belum tersedia</strong>
+                <p>{{ evaluation_error }}</p>
+                <code>python .\03_model_pipeline\evaluate_retrieval.py</code>
+            </div>
+            {% elif evaluation_report %}
+
+            <div class="evaluation-summary-grid">
+                <article class="evaluation-summary-card">
+                    <span>Jumlah FAQ</span>
+                    <strong>{{ evaluation_report.provenance.faq_count or "—" }}</strong>
+                    <small>dalam dataset aktif</small>
+                </article>
+                <article class="evaluation-summary-card">
+                    <span>Kategori</span>
+                    <strong>{{ evaluation_report.provenance.category_count or "—" }}</strong>
+                    <small>kategori FAQ</small>
+                </article>
+                <article class="evaluation-summary-card">
+                    <span>Sumber tercatat</span>
+                    <strong>{{ evaluation_report.provenance.source_count or "—" }}</strong>
+                    <small>label sumber, bukan URL</small>
+                </article>
+                <article class="evaluation-summary-card">
+                    <span>Salah Top-1 TF-IDF</span>
+                    <strong>
+                        {% if evaluation_report.test_misranking_count is not none %}
+                            {{ evaluation_report.test_misranking_count }}
+                        {% else %}
+                            —
+                        {% endif %}
+                    </strong>
+                    <small>pada test set</small>
+                </article>
+            </div>
+
+            <div class="evaluation-charts-grid">
+                <article class="evaluation-chart-card">
+                    <div class="evaluation-chart-heading">
+                        <h2>Perbandingan Kinerja Model Retrieval</h2>
+                    </div>
+
+                    <div
+                        class="evaluation-chart notebook-comparison-chart"
+                        role="img"
+                        aria-label="Grafik batang berkelompok. TF-IDF: Top-1 Accuracy 0.9884, Recall@3 1.0000, MRR 0.9936. Sentence Transformer: Top-1 Accuracy 0.8474, Recall@3 0.9353, MRR 0.8867."
+                    >
+                        <div class="notebook-chart-plot">
+                            {% for tick in [0, 0.2, 0.4, 0.6, 0.8, 1.0] %}
+                            <div
+                                class="notebook-chart-gridline"
+                                style="bottom: {{ (tick / 1.1 * 100)|round(3) }}%;"
+                                aria-hidden="true"
+                            ><span>{{ "%.1f"|format(tick) }}</span></div>
+                            {% endfor %}
+                            {% for model in evaluation_report.colab_comparison.models %}
+                            <div class="notebook-chart-group">
+                                <div class="notebook-chart-bars">
+                                    {% for metric in evaluation_report.colab_comparison.metrics %}
+                                    <div
+                                        class="notebook-chart-bar metric-color-{{ loop.index }}"
+                                        style="height: {{ (model[metric] / 1.1 * 100)|round(3) }}%;"
+                                        title="{{ metric }}: {{ '%.4f'|format(model[metric]) }}"
+                                    ></div>
+                                    {% endfor %}
+                                </div>
+                                <span class="notebook-chart-model">{{ model.Model }}</span>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="notebook-chart-x-label">Model</div>
+                    <ul class="notebook-chart-legend" aria-label="Legenda metrik">
+                        {% for metric in evaluation_report.colab_comparison.metrics %}
+                        <li class="metric-color-{{ loop.index }}">{{ metric }}</li>
+                        {% endfor %}
+                    </ul>
+                    <p class="evaluation-method-note">
+                        Nilai grafik mengikuti cell evaluasi pada notebook Colab.
+                    </p>
+                </article>
+            </div>
+
+            <div class="evaluation-section-heading">
+                <div>
+                    <h2>Metrik evaluasi pipeline lokal</h2>
+                    <p>Top-1, Recall@3, dan MRR berasal dari label FAQ.</p>
+                </div>
+            </div>
+
+            <div class="evaluation-table-wrap">
+                <table class="evaluation-table">
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>Split</th>
+                            <th>Sampel</th>
+                            <th>Top-1 Accuracy</th>
+                            <th>Recall@3</th>
+                            <th>MRR</th>
+                            <th>Cakupan @0.20</th>
+                            <th>Asal skor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in evaluation_report.metrics %}
+                        <tr>
+                            <td>{{ row.Model }}</td>
+                            <td><span class="evaluation-split">{{ row.Split }}</span></td>
+                            <td>{{ row.Samples }}</td>
+                            <td>{{ "%.2f"|format(row["Top-1 Accuracy"] * 100) }}%</td>
+                            <td>{{ "%.2f"|format(row["Recall@3"] * 100) }}%</td>
+                            <td>{{ "%.4f"|format(row.MRR) }}</td>
+                            <td>{{ "%.2f"|format(row["Coverage@0.20"] * 100) }}%</td>
+                            <td><code>{{ row["Score Source"] }}</code></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="evaluation-method-note">
+                Cakupan @0.20 adalah proporsi query dengan skor tertinggi
+                setidaknya 0.20; ini bukan ukuran kebenaran. Top-1 Accuracy,
+                Recall@3, dan MRR dihitung setelah skor beberapa query training
+                yang mengarah ke FAQ sama digabungkan berdasarkan <code>faq_id</code>.
+            </p>
+
+            <div class="evaluation-section-heading">
+                <div>
+                    <h2>Contoh prediksi test yang bukan Top-1</h2>
+                    <p>
+                        Baris di bawah diambil dari file prediksi test TF-IDF
+                        yang dihasilkan pipeline ini.
+                    </p>
+                </div>
+            </div>
+
+            {% if evaluation_report.test_misrankings %}
+            <div class="evaluation-table-wrap">
+                <table class="evaluation-table">
+                    <thead>
+                        <tr>
+                            <th>Pertanyaan</th>
+                            <th>FAQ benar</th>
+                            <th>Prediksi Top-1</th>
+                            <th>Kategori prediksi</th>
+                            <th>Sumber tercatat</th>
+                            <th>Skor</th>
+                            <th>Ranking FAQ benar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in evaluation_report.test_misrankings %}
+                        <tr>
+                            <td>
+                                <span class="evaluation-query">{{ row.question }}</span>
+                                <small>{{ row.query_id }}</small>
+                            </td>
+                            <td>{{ row.expected_faq_id }}</td>
+                            <td>{{ row.predicted_faq_id }}</td>
+                            <td>{{ row.predicted_category }}</td>
+                            <td>{{ row.predicted_source }}</td>
+                            <td>{{ "%.4f"|format(row.top_score) }}</td>
+                            <td>
+                                {% if row.expected_rank is not none %}
+                                    #{{ row.expected_rank }}
+                                    {% if row.hit_at_3 %}(masuk Top-3){% endif %}
+                                {% else %}
+                                    Tidak ditemukan
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% elif evaluation_report.test_misranking_count == 0 %}
+            <p class="evaluation-empty">
+                Tidak ada prediksi non-Top-1 pada test set menurut file evaluasi.
+            </p>
+            {% else %}
+            <p class="evaluation-empty">
+                File prediksi per pertanyaan belum tersedia. Jalankan ulang
+                pipeline evaluasi untuk melihat contoh kesalahan.
+            </p>
+            {% endif %}
+
+            {% endif %}
+
+            <footer class="page-footer">
+                Smart Academic Assistant
+                <span>•</span>
+                Hasil Pengujian
+            </footer>
+        </section>
+
         {% elif page == 'history' %}
 
         <section class="content history-page">
@@ -686,7 +910,7 @@
     }
 
 
-    function addMessage(text, role = "bot") {
+    function addMessage(text, role = "bot", feedback = null) {
         const wrapper = document.createElement("div");
         wrapper.className =
             role === "user" ? "message user-message" : "message";
@@ -714,6 +938,74 @@
 
         content.appendChild(name);
         content.appendChild(bubble);
+
+        if (role === "bot" && feedback) {
+            wrapper.dataset.feedbackQuestion = feedback.question;
+            wrapper.dataset.conversationId = feedback.conversationId;
+            wrapper.dataset.messageId = feedback.messageId;
+
+            if (feedback.category || feedback.source) {
+                const reference = document.createElement("div");
+                reference.className = "answer-reference";
+
+                if (feedback.category) {
+                    const category = document.createElement("span");
+                    category.textContent =
+                        "Kategori: " + feedback.category;
+                    reference.appendChild(category);
+                }
+
+                if (feedback.source) {
+                    const source = document.createElement("span");
+                    source.textContent = "Sumber: " + feedback.source;
+                    reference.appendChild(source);
+                }
+
+                content.appendChild(reference);
+            }
+
+            const controls = document.createElement("div");
+            controls.className = "feedback-controls";
+            controls.setAttribute("aria-label", "Nilai jawaban");
+
+            const helpfulButton = document.createElement("button");
+            helpfulButton.type = "button";
+            helpfulButton.className = "feedback-button";
+            helpfulButton.dataset.feedbackRating = "helpful";
+            helpfulButton.setAttribute("aria-label", "Jawaban membantu");
+            helpfulButton.title = "Membantu";
+            helpfulButton.textContent = "👍";
+
+            const notHelpfulButton = document.createElement("button");
+            notHelpfulButton.type = "button";
+            notHelpfulButton.className = "feedback-button";
+            notHelpfulButton.dataset.feedbackRating = "not_helpful";
+            notHelpfulButton.setAttribute(
+                "aria-label",
+                "Jawaban tidak membantu"
+            );
+            notHelpfulButton.title = "Tidak membantu";
+            notHelpfulButton.textContent = "👎";
+
+            const status = document.createElement("span");
+            status.className = "feedback-status";
+            status.setAttribute("aria-live", "polite");
+            status.textContent = "Masukan disimpan untuk evaluasi.";
+
+            if (feedback.rating) {
+                const selectedButton = feedback.rating === "helpful"
+                    ? helpfulButton
+                    : notHelpfulButton;
+                selectedButton.classList.add("selected");
+                helpfulButton.disabled = true;
+                notHelpfulButton.disabled = true;
+                status.textContent = "Terima kasih atas masukanmu.";
+            }
+
+            controls.append(helpfulButton, notHelpfulButton, status);
+            content.appendChild(controls);
+        }
+
         wrapper.appendChild(content);
         chat.appendChild(wrapper);
 
@@ -723,7 +1015,7 @@
     }
 
 
-    function persistMessage(role, text) {
+    function persistMessage(role, text, metadata = {}) {
         const history = getHistory();
         let item = history.find(entry => entry.id === currentId);
 
@@ -741,10 +1033,13 @@
             history.push(item);
         }
 
-        item.messages.push({
+        const message = {
+            id: createId(),
             role: role,
-            text: text
-        });
+            text: text,
+            ...metadata
+        };
+        item.messages.push(message);
 
         item.updatedAt = Date.now();
 
@@ -759,6 +1054,7 @@
         }
 
         saveHistory(history);
+        return message;
     }
 
 
@@ -766,7 +1062,17 @@
         chat.innerHTML = "";
 
         item.messages.forEach(message => {
-            addMessage(message.text, message.role);
+            const feedback = message.role === "bot" && message.question
+                ? {
+                    question: message.question,
+                    conversationId: item.id,
+                    messageId: message.id,
+                    rating: message.feedback || null,
+                    category: message.category || null,
+                    source: message.source || null
+                }
+                : null;
+            addMessage(message.text, message.role, feedback);
         });
 
         scrollToBottom();
@@ -821,8 +1127,20 @@
             const answer = data.answer ||
                 "Maaf, belum ada jawaban yang tersedia.";
 
-            addMessage(answer, "bot");
-            persistMessage("bot", answer);
+            const savedMessage = persistMessage("bot", answer, {
+                question: question,
+                feedback: null,
+                category: data.category || null,
+                source: data.source || null
+            });
+            addMessage(answer, "bot", {
+                question: question,
+                conversationId: currentId,
+                messageId: savedMessage.id,
+                rating: null,
+                category: data.category || null,
+                source: data.source || null
+            });
 
         } catch (error) {
             loadingMessage.remove();
@@ -849,6 +1167,76 @@
             messageInput.focus();
         }
     }
+
+
+    async function submitFeedback(button) {
+        const controls = button.closest(".feedback-controls");
+        const message = button.closest(".message");
+        const rating = button.dataset.feedbackRating;
+        const question = message.dataset.feedbackQuestion;
+        const answer = message.querySelector(".bubble").textContent;
+        const conversationId = message.dataset.conversationId;
+        const messageId = message.dataset.messageId;
+        const status = controls.querySelector(".feedback-status");
+        const buttons = controls.querySelectorAll(".feedback-button");
+
+        buttons.forEach(item => {
+            item.disabled = true;
+        });
+        status.textContent = "Mengirim feedback...";
+
+        try {
+            const response = await fetch("/api/feedback", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    question: question,
+                    answer: answer,
+                    rating: rating
+                })
+            });
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(
+                    data.error || "Feedback gagal disimpan."
+                );
+            }
+
+            const history = getHistory();
+            const conversation = history.find(
+                item => item.id === conversationId
+            );
+            const savedMessage = conversation?.messages.find(
+                item => item.id === messageId
+            );
+
+            if (savedMessage) {
+                savedMessage.feedback = rating;
+                saveHistory(history);
+            }
+
+            button.classList.add("selected");
+            status.textContent = "Terima kasih atas masukanmu.";
+        } catch (error) {
+            buttons.forEach(item => {
+                item.disabled = false;
+            });
+            status.textContent =
+                error.message || "Feedback gagal dikirim.";
+            console.error("Feedback error:", error);
+        }
+    }
+
+
+    chat.addEventListener("click", event => {
+        const button = event.target.closest("[data-feedback-rating]");
+        if (button && chat.contains(button)) {
+            submitFeedback(button);
+        }
+    });
 
 
     // Kirim pertanyaan melalui form

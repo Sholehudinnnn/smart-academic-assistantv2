@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Smart Academic Assistant membantu Anda menemukan informasi akademik dengan cepat dan mudah."
+    >
+    <title>Selamat Datang | Smart Academic Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/welcome.css') }}"
+    >
+</head>
+<body>
+    <main class="welcome-page">
+        <div class="ambient ambient-top-left" aria-hidden="true"></div>
+        <div class="ambient ambient-top-right" aria-hidden="true"></div>
+        <div class="particle-field" id="particleField" aria-hidden="true"></div>
+
+        <header class="welcome-header">
+            <a class="welcome-brand" href="/welcome" aria-label="Smart Academic Assistant">
+                <span class="brand-mark" aria-hidden="true">
+                    <svg viewBox="0 0 32 32" fill="none">
+                        <path d="M5 26h22M8 23h16M10 22V12m6 10V12m6 10V12M6 10h20L16 5 6 10Z"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M4 27h24" stroke="currentColor" stroke-width="2.5"
+                              stroke-linecap="round"/>
+                    </svg>
+                </span>
+                <span class="brand-copy">
+                    <strong>SMART ACADEMIC</strong>
+                    <small>UNIVERSITY ASSISTANT</small>
+                </span>
+            </a>
+            <span class="welcome-edition">TEMAN BELAJAR DIGITAL</span>
+        </header>
+
+        <section class="welcome-content" aria-labelledby="welcome-title">
+            <div class="illustration-wrap" aria-label="Ilustrasi asisten akademik, buku, dan topi wisuda">
+                <div class="illustration-aura" aria-hidden="true"></div>
+                <div class="orbit orbit-one" aria-hidden="true"></div>
+                <div class="orbit orbit-two" aria-hidden="true"></div>
+                <span class="orbit-satellite satellite-one" aria-hidden="true"></span>
+                <span class="orbit-satellite satellite-two" aria-hidden="true"></span>
+                <span class="light-beam" aria-hidden="true"></span>
+                <span class="orbit-spark spark-one" aria-hidden="true">✦</span>
+                <span class="orbit-spark spark-two" aria-hidden="true">✧</span>
+                <span class="orbit-spark spark-three" aria-hidden="true">✦</span>
+
+                <div class="floating-card card-campus" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <path d="M7 39h34M11 35h26M14 34V18m10 16V18m10 16V18M8 15h32L24 7 8 15Z"
+                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="floating-card card-chat" aria-hidden="true">
+                    <svg viewBox="0 0 52 46" fill="none">
+                        <path d="M7 8.5A7.5 7.5 0 0 1 14.5 1h25A7.5 7.5 0 0 1 47 8.5v16a7.5 7.5 0 0 1-7.5 7.5H24l-11 9v-9.7A7.5 7.5 0 0 1 7 24.5v-16Z"
+                              fill="currentColor" opacity=".16"/>
+                        <circle cx="18" cy="17" r="2.5" fill="currentColor"/>
+                        <circle cx="27" cy="17" r="2.5" fill="currentColor"/>
+                        <circle cx="36" cy="17" r="2.5" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="floating-card card-insight" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <path d="M24 7a13 13 0 0 0-8 23.25c1.8 1.4 2.5 2.8 2.5 4.75h11c0-1.95.7-3.35 2.5-4.75A13 13 0 0 0 24 7Z"
+                              stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                        <path d="M19 39h10m-8 4h6M24 2v2m17 16h-2M9 20H7m29-12-2 2M14 10l-2-2"
+                              stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="floating-card card-chart" aria-hidden="true">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <path d="M9 39V26h8v13m5 0V17h8v22m5 0V9h8v30H9Z"
+                              fill="currentColor" opacity=".82"/>
+                    </svg>
+                </div>
+
+                <svg class="academic-illustration" viewBox="0 0 560 330" role="img"
+                     aria-labelledby="illustration-title">
+                    <title id="illustration-title">Robot akademik dengan buku terbuka dan topi wisuda</title>
+                    <defs>
+                        <linearGradient id="bookPage" x1="120" y1="188" x2="287" y2="277"
+                                        gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#fffdf3"/>
+                            <stop offset="1" stop-color="#e7e4cc"/>
+                        </linearGradient>
+                        <linearGradient id="robotBody" x1="328" y1="183" x2="405" y2="286"
+                                        gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#fff"/>
+                            <stop offset="1" stop-color="#d9e7d8"/>
+                        </linearGradient>
+                        <linearGradient id="screen" x1="319" y1="117" x2="403" y2="180"
+                                        gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#243d38"/>
+                            <stop offset="1" stop-color="#102822"/>
+                        </linearGradient>
+                        <linearGradient id="cap" x1="181" y1="37" x2="336" y2="117"
+                                        gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#316f58"/>
+                            <stop offset="1" stop-color="#174b3a"/>
+                        </linearGradient>
+                        <filter id="softShadow" x="55" y="27" width="460" height="300"
+                                color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                            <feGaussianBlur stdDeviation="9"/>
+                        </filter>
+                    </defs>
+                    <ellipse cx="288" cy="285" rx="176" ry="17" fill="#6a9c7d" opacity=".14"
+                             filter="url(#softShadow)"/>
+
+                    <g class="book">
+                        <path d="M91 196c45-23 88-19 142 6v75c-49-25-94-29-142-7v-74Z"
+                              fill="url(#bookPage)" stroke="#d7d4be" stroke-width="3"
+                              stroke-linejoin="round"/>
+                        <path d="M233 202c49-27 94-30 143-9v76c-49-20-94-18-143 8v-75Z"
+                              fill="url(#bookPage)" stroke="#d7d4be" stroke-width="3"
+                              stroke-linejoin="round"/>
+                        <path d="M233 202v75" stroke="#789b7c" stroke-width="5"
+                              stroke-linecap="round"/>
+                        <path d="M111 210c31-13 65-10 93 1m-91 8c34-12 64-9 90 2m-90 8c32-11 62-8 89 3m53-25c31-15 61-19 94-13m-93 22c30-14 59-17 91-12m-90 21c29-13 58-16 88-11"
+                              stroke="#d7d3bd" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+                        <path d="M90 270c46-21 94-17 143 7v12c-51-25-99-29-143-7v-12Zm143 7c47-25 95-28 143-8v12c-50-20-96-17-143 8v-12Z"
+                              fill="#39765b"/>
+                    </g>
+
+                    <g class="robot">
+                        <path d="M319 209c0-20 16-36 36-36h17c23 0 42 19 42 42v44c0 12-10 22-22 22h-50c-13 0-23-10-23-23v-49Z"
+                              fill="url(#robotBody)" stroke="#a9c6b0" stroke-width="3"/>
+                        <path d="M345 215c-18 7-25 27-16 42 7 12 23 14 33 4l16-17"
+                              fill="url(#robotBody)" stroke="#a9c6b0" stroke-width="3"
+                              stroke-linecap="round"/>
+                        <path d="M385 220c13 3 21 15 18 27-3 13-16 20-29 16l-12-5"
+                              fill="url(#robotBody)" stroke="#a9c6b0" stroke-width="3"
+                              stroke-linecap="round"/>
+                        <path d="M367 225c3-8 10-12 18-11m-49 14c3-7 9-11 16-12"
+                              stroke="#6b9b79" stroke-width="7" stroke-linecap="round"/>
+                        <rect x="310" y="103" width="112" height="91" rx="39"
+                              fill="url(#robotBody)" stroke="#a9c6b0" stroke-width="3"/>
+                        <rect x="321" y="115" width="90" height="65" rx="29" fill="url(#screen)"/>
+                        <path class="robot-eyes" d="M339 143c4-12 14-12 18 0m20 0c4-12 14-12 18 0"
+                              stroke="#e5fff1" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M350 157c8 7 18 7 26 0" stroke="#bcebd0" stroke-width="3"
+                              stroke-linecap="round"/>
+                        <path d="M309 128h-7a8 8 0 0 0-8 8v20a8 8 0 0 0 8 8h7m113-36h7a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8h-7"
+                              fill="#8bb99a" stroke="#659778" stroke-width="3"/>
+                        <circle cx="302" cy="146" r="5" fill="#d9f0dc"/>
+                        <circle cx="430" cy="146" r="5" fill="#d9f0dc"/>
+                    </g>
+
+                    <g class="laptop">
+                        <path d="m271 202 74-8 20 64-77 11-17-67Z" fill="#aab9ba"
+                              stroke="#829596" stroke-width="3" stroke-linejoin="round"/>
+                        <path d="m258 267 100-13 16 11-100 15-16-13Z" fill="#687c7a"/>
+                        <path d="m304 232 12-1 7 7-12 2-7-8Z" fill="#f3f5e9"/>
+                        <path d="m316 231 7 1-1 9-6-3-7 3v-9l7-1Z" fill="#f3f5e9"/>
+                    </g>
+
+                    <g class="graduation-cap">
+                        <path d="m171 77 103-45 117 20-107 53-113-28Z" fill="url(#cap)"
+                              stroke="#174b3a" stroke-width="4" stroke-linejoin="round"/>
+                        <path d="m192 87 90 32c19 7 42 3 57-10l20-17-82-32-85 27Z"
+                              fill="#225d46" stroke="#174b3a" stroke-width="4"
+                              stroke-linejoin="round"/>
+                        <path d="m381 50-7 78" stroke="#dfa74b" stroke-width="4"
+                              stroke-linecap="round"/>
+                        <path d="M374 125c-8 0-12 7-9 13l9 15 9-15c3-6-1-13-9-13Z"
+                              fill="#e1b454"/>
+                        <circle cx="381" cy="50" r="6" fill="#153f32"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="welcome-copy">
+                <p class="eyebrow"><span aria-hidden="true">✳</span> ASISTEN AKADEMIK DIGITAL</p>
+                <h1 id="welcome-title">
+                    <span class="title-line title-line-one">Selamat datang di</span>
+                    <span class="title-line title-line-two">
+                        <span class="title-smart">Smart Academic</span>
+                        <span class="title-assistant">Assistant</span>
+                    </span>
+                </h1>
+                <p class="welcome-description">
+                    Temukan informasi akademik dengan cepat dan mudah.
+                    Kami siap membantu perjalanan kuliah Anda.
+                </p>
+                <a class="welcome-cta" id="welcomeCta" href="/?page=chat">
+                    <span>Mulai sekarang</span>
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor"
+                              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <p class="welcome-footnote">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    Teman digital untuk kebutuhan akademik Anda
+                </p>
+            </div>
+        </section>
+
+        <svg class="campus-scene" viewBox="0 0 1440 260" preserveAspectRatio="xMidYMax slice"
+             aria-hidden="true">
+            <g class="campus-building campus-building-left">
+                <path d="M34 245V88l105-42 105 42v157H34Z" fill="#dfe9d9"/>
+                <path d="M21 91 139 40l118 51v14H21V91Z" fill="#cadbcb"/>
+                <path d="M69 114h30v38H69zm66 0h30v38h-30zm-66 63h30v39H69zm66 0h30v39h-30z"
+                      fill="#b3cdb8"/>
+                <path d="M185 117h35v128h-35zm-141 0h16v128H44z" fill="#cfdfd1"/>
+                <path d="M23 244h236" stroke="#b4cbb6" stroke-width="7"/>
+            </g>
+            <g class="campus-building campus-building-right">
+                <path d="M1195 245V103l99-44 111 44v142h-210Z" fill="#dfe9d9"/>
+                <path d="m1182 106 112-52 123 52v13h-235v-13Z" fill="#cadbcb"/>
+                <path d="M1224 129h31v35h-31zm66 0h31v35h-31zm66 0h31v35h-31zm-132 57h31v36h-31zm66 0h31v36h-31zm66 0h31v36h-31z"
+                      fill="#b3cdb8"/>
+                <path d="M1199 130h15v115h-15zm207 0h15v115h-15z" fill="#cfdfd1"/>
+                <path d="M1182 244h235" stroke="#b4cbb6" stroke-width="7"/>
+            </g>
+            <g class="campus-tree">
+                <path d="M290 245h9v-62h-9zm-18-49c0-14 11-25 25-25 6-17 30-17 36 0 19 0 28 24 13 36h-60c-9 0-14-5-14-11Z"
+                      fill="#c6d9c4"/>
+                <path d="M1110 245h9v-62h-9zm-19-50c0-13 10-24 23-25 7-17 30-17 37 0 18 1 27 24 12 36h-59c-8 0-13-5-13-11Z"
+                      fill="#c6d9c4"/>
+            </g>
+            <path d="M0 231c166-29 312 4 467 18 185 18 315-34 493-24 178 10 324 36 480 1v34H0v-29Z"
+                  fill="#d5e5ce"/>
+            <path d="M0 248c178-27 325 40 501 18 186-24 302-53 482-28 177 25 297 46 457 8v34H0v-32Z"
+                  fill="#8fb598"/>
+            <path d="M0 253c191-19 325 74 524 45 189-27 297-56 476-31 172 24 281 55 440 15v40H0v-69Z"
+                  fill="#3c785d"/>
+            <path d="M0 263c193-18 326 76 523 48 193-28 308-56 483-32 174 23 281 53 434 15"
+                  fill="none" stroke="#c9dfbd" stroke-width="4" opacity=".9"/>
+        </svg>
+    </main>
+    <script src="{{ url_for('static', filename='js/welcome.js') }}" defer></script>
+</body>
+</html>
